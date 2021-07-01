@@ -13,7 +13,6 @@ input
 padding: 0;
 margin: 0;
 border: 0;
-border: none;
 }
 
 .section {
@@ -23,7 +22,7 @@ border: none;
    background-position: center;
    background-size: cover;
 
-
+   
    .section-inner {
       display: flex;
       flex-direction: column;
@@ -88,17 +87,14 @@ border: none;
       
 
       .input-button {
-         width: 100%;
+         @extend %btn;
          max-width: 570px;
-         padding: 20px 30px;
-         border-radius: 5px;
          background-color: $green;
          border: none;
-         color: $white;
          font-family: 'Arial';
          font-size: 13.3px;
-         text-transform: uppercase;
-         font-weight: 400;
+         
+         
       }
 
 
@@ -107,11 +103,18 @@ border: none;
 
       
    }
+
+
    
 }
 
 /*Header*/
 @import "blocks/header";
 
+/*Page-prising*/
+@import "blocks/page-pricing";
+
 /*Footer*/
 @import "blocks/footer";
+
+

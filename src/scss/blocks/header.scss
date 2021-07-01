@@ -1,7 +1,11 @@
 
-ul {
+@mixin reset {
    margin: 0;
    padding: 0;
+ }
+
+ul {
+   @include reset;
 }
 
 header {
@@ -12,8 +16,8 @@ header {
    justify-content: flex-end;
    padding-left: 120px;
    padding-right: 120px;
-   
-  
+
+
    
    .logo {
       width: 24px;
@@ -72,4 +76,12 @@ header {
    text-transform: uppercase;
    color: #757575;
    padding-left: 10px;
+
+
+      
+      
    }
+
+
+
+

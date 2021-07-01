@@ -1,0 +1,108 @@
+
+.section-prising {
+   background-color: $black;
+   padding-top: 100px;
+   text-align: center;
+   width: 100%;
+   height: auto;
+
+  
+
+   h2 {
+      padding-bottom: 50px;
+   }
+   
+   .section-prising-inner {
+      display: flex;
+      justify-content: space-around;
+      
+   
+
+   
+
+      .pricing-item {
+         width: 33.33333%;
+         padding-left: 1.5rem;
+         padding-right: 1.5rem;
+         border-radius: 1rem;
+         margin-right: 50px;
+         height: auto;
+         margin-bottom: 40px;
+         
+         
+         
+        
+         
+
+         &.bg-free {
+            background-image: url('../images/subscribe_1.png');
+            background-size: cover;
+         
+           
+         }
+
+         &.bg-standart {
+            background-image: url('../images/subscribe_2.png');
+            background-size: cover;
+         }
+      
+         &.bg-premium {
+            background-image: url('../images/subscribe_3.png');
+            background-size: cover;
+         }
+
+         &:last-child {
+            margin-right: 0px;
+         }
+   
+
+         h3 {
+            padding-bottom: 200px;
+            padding-top: 24px;
+         }
+
+         .pricing-value {
+            margin-bottom: 40px;
+            line-height: 1em;
+            font-size: 64px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-style: normal;
+            
+            span {
+               font-size: 32px;
+               vertical-align: text-top;
+            }
+         }
+
+         .pricing-footer {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12.8px;
+            line-height: 150%;
+            color: $white;
+            padding-top: 64px;
+            padding-bottom: 64px;
+         }
+
+         a {
+            @extend %btn;
+            background: none;
+            text-decoration: none;
+            border: 1px solid $white;
+            display: inline-block;
+         }
+
+         
+      }
+   }
+   p {
+      font-size: 16px;
+      color: $white;
+      line-height: 150%;
+
+   }
+}
+   
