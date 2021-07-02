@@ -45,8 +45,7 @@ border: 0;
       }
 
       .form {
-         display: flex;
-         justify-content: space-between;
+         @extend %flex-between;
          width: 100%;
          max-width: 570px;
 
@@ -116,5 +115,10 @@ border: 0;
 
 /*Footer*/
 @import "blocks/footer";
+
+/*News*/
+@import "blocks/page-news.scss"
+
+
 
 

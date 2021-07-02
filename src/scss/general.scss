@@ -51,4 +51,10 @@ color: $white;
    color: $white;
    text-transform: uppercase;
    font-weight: 400;
+   text-decoration: none;
+}
+
+%flex-between {
+   display: flex;
+   justify-content: space-between;
 }
