@@ -102,10 +102,51 @@ border: 0;
 
       
    }
-
-
-   
 }
+
+.section-app {
+   @extend %section-style;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   
+   h2 {
+      padding-bottom: 60px;
+   }
+   
+   
+   .mobile-item {
+
+      @extend %flex-between;
+
+      .mobile-text {
+         width: 50%;
+         text-align: left;
+      
+      p {
+         font-size: 16px;
+         line-height: 150%;
+         margin-bottom: 30px;
+      }
+      
+      a {
+         @extend %btn;
+         background: $red;
+         border-radius: 32px;
+         padding: 16px 40px;
+         font-size: 12.8px;
+         
+      
+      }
+      }
+  
+
+   .mobile-img {
+      width: 50%;
+   }
+  
+}
+}
+
 
 /*Header*/
 @import "blocks/header";
@@ -117,8 +158,4 @@ border: 0;
 @import "blocks/footer";
 
 /*News*/
-@import "blocks/page-news.scss"
-
-
-
-
+@import "blocks/page-news";

@@ -33,7 +33,7 @@ p {
   line-height: 100%;
   color: #FFFFFF; }
 
-.section .section-inner .input-button, .section-prising .section-prising-inner .pricing-item a, .section-news .news-item .news-footer a {
+.section .section-inner .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item a, .section-news .news-item .news-footer a {
   width: 100%;
   padding: 20px 30px;
   border-radius: 5px;
@@ -42,9 +42,15 @@ p {
   font-weight: 400;
   text-decoration: none; }
 
-.section .section-inner .form, .section-news .news-item {
+.section .section-inner .form, .section-app .mobile-item, .section-news .news-item {
   display: flex;
   justify-content: space-between; }
+
+.section-app, .section-prising {
+  text-align: center;
+  background-color: #08020d;
+  width: 100%;
+  height: auto; }
 
 * {
   margin: 0;
@@ -105,6 +111,26 @@ input {
       font-family: 'Arial';
       font-size: 13.3px; }
 
+.section-app {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .section-app h2 {
+    padding-bottom: 60px; }
+  .section-app .mobile-item .mobile-text {
+    width: 50%;
+    text-align: left; }
+    .section-app .mobile-item .mobile-text p {
+      font-size: 16px;
+      line-height: 150%;
+      margin-bottom: 30px; }
+    .section-app .mobile-item .mobile-text a {
+      background: #95390C;
+      border-radius: 32px;
+      padding: 16px 40px;
+      font-size: 12.8px; }
+  .section-app .mobile-item .mobile-img {
+    width: 50%; }
+
 /*Header*/
 ul {
   margin: 0;
@@ -159,11 +185,7 @@ header {
 
 /*Page-prising*/
 .section-prising {
-  background-color: #08020d;
   padding-top: 100px;
-  text-align: center;
-  width: 100%;
-  height: auto;
   margin: 0 auto; }
   .section-prising h2 {
     padding-bottom: 50px; }
