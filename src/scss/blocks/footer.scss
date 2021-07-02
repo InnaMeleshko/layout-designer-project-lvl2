@@ -1,6 +1,6 @@
 
 footer {
-   background: linear-gradient(265.08deg,$red 14.9%,$purple 68.95%);
+   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
    position: relative;
    
    &::after {
@@ -17,17 +17,19 @@ footer {
 }
 
 .footer-section {
-   padding: 60px 120px 72px 120px;
+   
+   padding-top: 3rem;
+   padding-bottom: 3rem;
    height: auto;
    width: 100%;
-   display: flex;
-   justify-content: space-between;
+   @extend %flex-between;
+   
 
-   &::after{
-      content: '';
-      background-color: $white;
-      height: 1px;
-      display: block;
+   &::after {
+     content: '';
+     border-bottom: 1px solid $white;
+     
+     position: relative;
    }
 
    .footer-inner {
@@ -60,9 +62,9 @@ footer {
 }
 
 .footer-contacts {
-   padding-left: 120px;
-   padding-bottom: 50px;
-   padding-top: 40px;
+  
+   padding-bottom: 2rem;
+   padding-top: 2rem;
    display: flex;
    justify-content: flex-start;
 
