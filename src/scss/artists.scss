@@ -1,0 +1,90 @@
+
+/*Header*/
+@import "blocks/header";
+
+
+.section-artists {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      background-image: url('../images/Morten\ Harket.png');
+      background-position: center;
+      background-size: cover;
+   
+
+      h1 {
+         margin-bottom: 16px;
+      }
+      
+   
+      p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 48px;
+      }
+
+      a img {
+            width: 20px;
+            height: 17.79px;
+            margin-right: 16px;
+            filter: invert(1);
+            vertical-align: middle;
+           
+         }
+
+      
+
+      .form {
+         @extend %flex-between;
+         width: 100%;
+         max-width: 570px;
+
+         .input {
+            width: 50%;
+            min-height: 50px;
+            min-width: 270px;
+            padding-left: 20px;
+            margin-bottom: 1.5rem;
+            border: 2px solid $white;
+            border-radius: 3px;
+            margin-right: 24px;
+            background: none;
+
+            &::placeholder {
+               font-family: Roboto;
+               font-style: normal;
+               font-weight: bold;
+               font-size: 14px;
+               line-height: 16px;
+               color: $white;
+            }
+
+
+            &:last-child {
+               margin-right: 0;
+            }
+         }
+      }
+      
+      
+
+      .input-button {
+         @extend %btn;
+         width: 200px;
+         background-color: $purple;
+         border: none;
+         font-family: 'Arial';
+         font-size: 12.8px;
+         padding: 20px 30px;
+         margin-right: 1.5rem;
+         display: inline-block;
+         
+
+         &:last-child {
+            margin-right: 0px;
+            background-color: $red;
+         }
+      }
+}

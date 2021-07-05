@@ -33,7 +33,7 @@ p {
   line-height: 100%;
   color: #FFFFFF; }
 
-.section .section-inner .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item a, .section-news .news-item .news-footer a {
+.section-artists .input-button, .section .section-inner .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item a, .section-news .news-item .news-footer a {
   width: 100%;
   padding: 20px 30px;
   border-radius: 5px;
@@ -42,7 +42,7 @@ p {
   font-weight: 400;
   text-decoration: none; }
 
-.section .section-inner .form, .section-app .mobile-item, .footer-section, .section-news .news-item {
+.section-artists .form, .section .section-inner .form, .section-app .mobile-item, .footer-section, .section-news .news-item {
   display: flex;
   justify-content: space-between; }
 
@@ -51,6 +51,165 @@ p {
   background-color: #08020d;
   width: 100%;
   height: auto; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+header {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 120px;
+  padding-right: 120px; }
+  header .logo {
+    width: 24px;
+    height: 24px; }
+  header .header-nav li {
+    display: inline-block;
+    padding-right: 24px;
+    vertical-align: middle; }
+    header .header-nav li:first-child {
+      padding-left: 16px;
+      padding-right: 90px; }
+    header .header-nav li:last-child {
+      padding-right: 0px; }
+    header .header-nav li .nav-link {
+      list-style: none;
+      text-decoration: none;
+      color: #cacaca;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 16px;
+      font-family: 'Roboto', italic; }
+    header .header-nav li:hover {
+      color: #FFFFFF;
+      font-size: 11px;
+      transition: .2s; }
+
+.input {
+  width: 245px;
+  height: 25px;
+  border-radius: 50px;
+  background: #3C3B3D;
+  margin-left: auto; }
+
+::placeholder {
+  font-size: 13.3px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #757575;
+  padding-left: 10px; }
+
+/*Header*/
+ul {
+  margin: 0;
+  padding: 0; }
+
+header {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 120px;
+  padding-right: 120px; }
+  header .logo {
+    width: 24px;
+    height: 24px; }
+  header .header-nav li {
+    display: inline-block;
+    padding-right: 24px;
+    vertical-align: middle; }
+    header .header-nav li:first-child {
+      padding-left: 16px;
+      padding-right: 90px; }
+    header .header-nav li:last-child {
+      padding-right: 0px; }
+    header .header-nav li .nav-link {
+      list-style: none;
+      text-decoration: none;
+      color: #cacaca;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 16px;
+      font-family: 'Roboto', italic; }
+    header .header-nav li:hover {
+      color: #FFFFFF;
+      font-size: 11px;
+      transition: .2s; }
+
+.input {
+  width: 245px;
+  height: 25px;
+  border-radius: 50px;
+  background: #3C3B3D;
+  margin-left: auto; }
+
+::placeholder {
+  font-size: 13.3px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #757575;
+  padding-left: 10px; }
+
+.section-artists {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover; }
+  .section-artists h1 {
+    margin-bottom: 16px; }
+  .section-artists p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 48px; }
+  .section-artists a img {
+    width: 20px;
+    height: 17.79px;
+    margin-right: 16px;
+    filter: invert(1);
+    vertical-align: middle; }
+  .section-artists .form {
+    width: 100%;
+    max-width: 570px; }
+    .section-artists .form .input {
+      width: 50%;
+      min-height: 50px;
+      min-width: 270px;
+      padding-left: 20px;
+      margin-bottom: 1.5rem;
+      border: 2px solid #FFFFFF;
+      border-radius: 3px;
+      margin-right: 24px;
+      background: none; }
+      .section-artists .form .input::placeholder {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF; }
+      .section-artists .form .input:last-child {
+        margin-right: 0; }
+  .section-artists .input-button {
+    width: 200px;
+    background-color: #5328A1;
+    border: none;
+    font-family: 'Arial';
+    font-size: 12.8px;
+    padding: 20px 30px;
+    margin-right: 1.5rem;
+    display: inline-block; }
+    .section-artists .input-button:last-child {
+      margin-right: 0px;
+      background-color: #95390C; }
 
 * {
   margin: 0;
