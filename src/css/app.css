@@ -42,7 +42,7 @@ p {
   font-weight: 400;
   text-decoration: none; }
 
-.section-artists .form, .section .section-inner .form, .section-app .mobile-item, .footer-section, .section-news .news-item {
+.section-tracks .popular-track .track-info, .section-artists .form, .section .section-inner .form, .section-app .mobile-item, .footer-section, .section-news .news-item {
   display: flex;
   justify-content: space-between; }
 
@@ -154,6 +154,47 @@ header {
   text-transform: uppercase;
   color: #757575;
   padding-left: 10px; }
+
+.section-tracks {
+  background-color: #08020d;
+  padding-top: 100px;
+  width: 100%;
+  height: auto; }
+  .section-tracks h2 {
+    margin-bottom: 57px; }
+  .section-tracks .section-inner-track {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .section-tracks .section-inner-track .inner-column {
+      width: 50%;
+      display: block; }
+  .section-tracks .popular-track {
+    display: flex;
+    justify-content: flex-start;
+    margin: 25px 50px;
+    vertical-align: middle; }
+    .section-tracks .popular-track .track-info span {
+      margin-left: auto;
+      color: #FFFFFF;
+      font-size: 12.8px;
+      line-height: 19.2px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal; }
+    .section-tracks .popular-track img {
+      width: 55px;
+      height: 55px;
+      margin-right: 15px; }
+    .section-tracks .popular-track p {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12.8px;
+      line-height: 19.2px; }
+      .section-tracks .popular-track p:first-child {
+        font-weight: 700;
+        text-transform: uppercase; }
 
 .section-artists {
   padding-top: 200px;
