@@ -1,0 +1,46 @@
+.section-discography {
+   
+   background-color: $black;
+   padding-top: 100px;
+   width: 100%;
+   height: auto;
+
+   h2 {
+      margin-bottom: 48px;
+   }
+
+   
+   
+   .discography-inner {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+
+      .discography-item {
+
+         margin-right: 50px;
+         margin-bottom: 25px;
+               
+            img {
+               width: 250px;
+               height: 250px;
+               margin-bottom: 18px;
+            }
+
+
+            h4 {
+               text-transform: capitalize;
+            }
+
+            p {
+               font-family: 'Roboto', serif;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 16px;
+               line-height: 24px;
+            }
+         }
+   
+   }
+}
+
