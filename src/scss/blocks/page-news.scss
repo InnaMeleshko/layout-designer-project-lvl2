@@ -6,6 +6,18 @@
    width: 100%;
    height: auto;
    text-align: center;
+
+   .container {
+      height: auto;
+      width: 100%;
+      margin: auto;
+      position: relative;
+   }
+   @media (min-width: 1240px){
+      .container {
+      max-width: 1200px;
+      }
+   }
   
   
 
@@ -46,6 +58,8 @@
          margin-bottom: 24px;
       }
 
+
+
    
 
       .news-footer {
@@ -65,21 +79,17 @@
       .news-author {
             display: flex;
             justify-content: flex-start;
+  
 
                img {
                   width: 19px;
                   height: 19px;
-                  margin-right: 16px;
-
                }
 
                p {
-                  margin-right: 16px;
-                  margin-bottom: 48px;
+                 margin-bottom: 48px;
                }
-            &:nth-child(2) {
-               color: $orange;
-            }
+            
       }
       }
 }

@@ -1,8 +1,23 @@
 .section-tracks   {
    background-color: $black;
-   padding-top: 100px;
    width: 100%;
    height: auto;
+   text-align: center;
+
+
+   .container {
+      height: auto;
+      width: 100%;
+      margin: auto;  
+     
+   }   
+   
+   @media (min-width: 1240px){
+      .container {
+      max-width: 1200px;
+      }
+   }
+   
 
    h2 {
       margin-bottom: 57px;
@@ -22,13 +37,17 @@
 
    .popular-track {
 
-      display: flex;
-      justify-content: flex-start;
+      
       margin: 25px 50px;
       vertical-align: middle;
+      @extend %flex-between;
 
       .track-info {
-         @extend %flex-between;
+         text-align: left;
+      }
+
+     
+         
 
          span {
             margin-left: auto;
@@ -77,13 +96,6 @@
          text-transform: uppercase;
       }
    }
-
-   
-   }
-
-
-
-
 
    
 }

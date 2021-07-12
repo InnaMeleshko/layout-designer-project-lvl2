@@ -1,6 +1,8 @@
 @import "variables";
 @import "general";
 @import "artists";
+@import "atomic-styles";
+
 
 
 * 
@@ -18,11 +20,24 @@ border: 0;
 }
 
 .section {
-   padding-top: 200px;
-   padding-bottom: 200px;
+   @extend %section-padding-200;
    background-image: url('../images/banner.png');
    background-position: center;
    background-size: cover;
+  
+
+   .container {
+      height: auto;
+      width: 100%;
+      margin: auto;
+      position: relative;
+   }
+   @media (min-width: 1240px){
+      .container {
+      max-width: 1200px;
+      }
+   }
+
 
    
    .section-inner {
@@ -37,11 +52,9 @@ border: 0;
       }
 
       label {
+         @extend %text-style;
          color: $white;
-         font-size: 16px;
-         line-height: 24px;
          text-align: center;
-         font-family: 'Roboto', serif;
          margin-bottom: 17px;
       
       }
@@ -61,7 +74,7 @@ border: 0;
             margin-bottom: 1.5rem;
             border: 2px solid $white;
             border-radius: 3px;
-            margin-right: 24px;
+            
             background: none;
 
             &::placeholder {
@@ -110,6 +123,18 @@ border: 0;
    @extend %section-style;
    padding-top: 100px;
    padding-bottom: 100px;
+
+   .container {
+      height: auto;
+      width: 100%;
+      margin: auto;
+      position: relative;
+   }
+   @media (min-width: 1240px){
+      .container {
+      max-width: 1200px;
+      }
+   }
    
    h2 {
       padding-bottom: 60px;
@@ -149,29 +174,45 @@ border: 0;
 }
 }
 
-footer {
-   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-   position: relative;
-   
-   
-
-}
+/*Footer*/
 
 .footer-section {
    
-   padding-top: 3rem;
-   padding-bottom: 3rem;
    height: auto;
    width: 100%;
-   @extend %flex-between;
+   position: relative;
+
+   &.bg-gradient {
+      background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+   }
+   
+   .footer-section-inner{
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid $white;
+   }
+
+
+   .container {
+      height: auto;
+      width: 100%;
+      margin: auto;  
+      @extend %flex-between;
+   }   
+   
+   @media (min-width: 1240px){
+      .container {
+      max-width: 1200px;
+      }
+   }
    
    .footer-inner {
       width: 25%;
       
       
       img {
-         padding-right: 24px;
-         float: left;
+      padding-right: 24px;
+      float: left;
         
       }
 
@@ -181,13 +222,9 @@ footer {
       }
 
       .footer-link {
+         @extend %text-style;
          display: block;
          text-decoration: none;
-         font-family: 'Roboto';
-         font-style: normal;
-         font-weight: 400;
-         font-size: 16px;
-         line-height: 24px;
          color: $gray;
 
       }
@@ -195,24 +232,17 @@ footer {
 }
 
 .footer-contacts {
-
-  
- 
-   border-top: 1px solid $white;
+   
    padding-bottom: 2rem;
    padding-top: 2rem;
    display: flex;
    justify-content: flex-start;
    
    .contacts-link {
+      @extend %text-style;
       text-decoration: none;
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
       color: $gray;
-      margin-right: 16px;
+      
 
 
       &:last-child {

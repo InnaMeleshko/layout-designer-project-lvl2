@@ -1,42 +1,39 @@
-.section-discography {
+.section-similar {
    
    background-color: $black;
    
+   padding-bottom: 100px;
    width: 100%;
    height: auto;
    text-align: center;
- 
-
 
    .container {
       height: auto;
       width: 100%;
-      margin: auto;  
-      
-   }   
-   
+      margin: auto;
+      position: relative;
+   }
    @media (min-width: 1240px){
       .container {
       max-width: 1200px;
       }
    }
-   
 
    h2 {
       margin-bottom: 48px;
    }
 
-   
-   
-   .discography-inner {
+
+   .similar-inner {
       display: flex;
       justify-content: flex-start;
       flex-wrap: wrap;
 
-      .discography-item {
+      .similar-item {
 
          margin-right: 50px;
          margin-bottom: 25px;
+         text-align: center;
                
             img {
                width: 250px;
@@ -59,5 +56,11 @@
          }
    
    }
-}
 
+
+
+
+
+
+
+}
