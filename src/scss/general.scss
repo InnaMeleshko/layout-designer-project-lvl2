@@ -69,6 +69,10 @@ color: $white;
    display: flex;
    justify-content: space-between;
 }
+%flex-start {
+   display: flex;
+   justify-content: flex-start;
+}
 
 %section-style {
    text-align: center;

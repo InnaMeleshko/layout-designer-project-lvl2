@@ -68,17 +68,7 @@
             border-radius: 3px;
             margin-right: 24px;
             background: none;
-
-            &::placeholder {
-               font-family: Roboto;
-               font-style: normal;
-               font-weight: bold;
-               font-size: 14px;
-               line-height: 16px;
-               color: $white;
-            }
-
-
+            
             &:last-child {
                margin-right: 0;
             }

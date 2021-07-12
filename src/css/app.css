@@ -48,9 +48,13 @@ p {
   font-weight: 400;
   text-decoration: none; }
 
-.section-tracks .popular-track, .section-artists .form, .section .section-inner .form, .section-app .mobile-item, .footer-section .container, .section-news .news-item {
+.section-tracks .section-inner-track, .section-tracks .popular-track, .section-artists .form, .section .section-inner .form, .section-app .mobile-item, .footer-section .container, .section-news .news-item {
   display: flex;
   justify-content: space-between; }
+
+.section-discography .discography-inner, .section-similar .similar-inner, .section-news .news-item .news-author {
+  display: flex;
+  justify-content: flex-start; }
 
 .section-app, .section-prising {
   text-align: center;
@@ -58,7 +62,7 @@ p {
   width: 100%;
   height: auto; }
 
-.section .section-inner label, .footer-section .footer-inner .footer-link, .footer-contacts .contacts-link {
+.section-discography .discography-inner .discography-item p, .section-similar .similar-inner .similar-item p, .section .section-inner label, .footer-section .footer-inner .footer-link, .footer-contacts .contacts-link, .section-news .news-item p {
   font-size: 16px;
   line-height: 24px;
   font-family: 'Roboto', serif;
@@ -135,9 +139,7 @@ header {
   .section-tracks h2 {
     margin-bottom: 57px; }
   .section-tracks .section-inner-track {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
+    flex-direction: row; }
     .section-tracks .section-inner-track .inner-column {
       width: 50%;
       display: block; }
@@ -150,10 +152,7 @@ header {
       margin-left: auto;
       color: #FFFFFF;
       font-size: 12.8px;
-      line-height: 19.2px;
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: normal; }
+      line-height: 19.2px; }
   .section-tracks img {
     width: 55px;
     height: 55px;
@@ -183,8 +182,6 @@ header {
   .section-discography h2 {
     margin-bottom: 48px; }
   .section-discography .discography-inner {
-    display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap; }
     .section-discography .discography-inner .discography-item {
       margin-right: 50px;
@@ -195,12 +192,6 @@ header {
         margin-bottom: 18px; }
       .section-discography .discography-inner .discography-item h4 {
         text-transform: capitalize; }
-      .section-discography .discography-inner .discography-item p {
-        font-family: 'Roboto', serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px; }
 
 .section-similar {
   background-color: #08020d;
@@ -219,11 +210,8 @@ header {
   .section-similar h2 {
     margin-bottom: 48px; }
   .section-similar .similar-inner {
-    display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap; }
     .section-similar .similar-inner .similar-item {
-      margin-right: 50px;
       margin-bottom: 25px;
       text-align: center; }
       .section-similar .similar-inner .similar-item img {
@@ -232,12 +220,6 @@ header {
         margin-bottom: 18px; }
       .section-similar .similar-inner .similar-item h4 {
         text-transform: capitalize; }
-      .section-similar .similar-inner .similar-item p {
-        font-family: 'Roboto', serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px; }
 
 .section-artists {
   padding-top: 200px;
@@ -281,13 +263,6 @@ header {
       border-radius: 3px;
       margin-right: 24px;
       background: none; }
-      .section-artists .form .input::placeholder {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        color: #FFFFFF; }
       .section-artists .form .input:last-child {
         margin-right: 0; }
   .section-artists .input-button {
@@ -318,11 +293,20 @@ header {
 .mr-40 {
   margin-right: 40px; }
 
+.mr-50 {
+  margin-right: 50px; }
+
+.ml-50 {
+  margin-left: 50px; }
+
 .mt-40 {
   margin-top: 40px; }
 
 .pt-100 {
   padding-top: 100px; }
+
+.mb-24 {
+  margin-bottom: 24px; }
 
 * {
   margin: 0;
@@ -553,9 +537,6 @@ header {
           font-size: 32px;
           vertical-align: text-top; }
       .section-prising .section-prising-inner .pricing-item .pricing-footer {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 400;
         font-size: 12.8px;
         line-height: 150%;
         color: #FFFFFF;
@@ -597,27 +578,18 @@ header {
       margin-bottom: 30px;
       text-transform: capitalize; }
     .section-news .news-item .item-img-left {
-      margin-right: 50px;
       height: auto;
       width: 50%; }
     .section-news .news-item .item-img-right {
-      margin-left: 50px;
       height: auto;
       width: 50%; }
-    .section-news .news-item p {
-      font-size: 16px;
-      line-height: 24px;
-      margin-bottom: 24px; }
     .section-news .news-item .news-footer a {
       background: none;
       border: 1px solid #FFFFFF; }
-    .section-news .news-item .news-author {
-      display: flex;
-      justify-content: flex-start; }
-      .section-news .news-item .news-author img {
-        width: 19px;
-        height: 19px; }
-      .section-news .news-item .news-author p {
-        margin-bottom: 48px; }
+    .section-news .news-item .news-author img {
+      width: 19px;
+      height: 19px; }
+    .section-news .news-item .news-author p {
+      margin-bottom: 48px; }
 
 /*# sourceMappingURL=app.css.map */

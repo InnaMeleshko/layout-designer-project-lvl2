@@ -24,9 +24,9 @@
    }
 
    .section-inner-track {
-      display: flex;
+      @extend %flex-between; 
       flex-direction: row;
-      justify-content: space-between;
+      
 
       .inner-column {
          width: 50%;
@@ -54,9 +54,7 @@
             color: $white;
             font-size: 12.8px;
             line-height: 19.2px;
-            font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: normal;
+           
          }
 
 

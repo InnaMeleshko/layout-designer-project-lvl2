@@ -41,21 +41,20 @@
       }
 
       .item-img-left {
-         margin-right: 50px;
+         
          height: auto;
          width: 50%;
       }
 
       .item-img-right {
-         margin-left: 50px;
+         
          height: auto;
          width: 50%;
       }
 
       p {
-         font-size: 16px;
-         line-height: 24px;
-         margin-bottom: 24px;
+         @extend %text-style;
+        
       }
 
 
@@ -77,10 +76,8 @@
       }
       
       .news-author {
-            display: flex;
-            justify-content: flex-start;
-  
-
+      @extend %flex-start;
+         
                img {
                   width: 19px;
                   height: 19px;
@@ -89,7 +86,6 @@
                p {
                  margin-bottom: 48px;
                }
-            
-      }
+         }
       }
 }
