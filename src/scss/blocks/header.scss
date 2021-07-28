@@ -1,52 +1,94 @@
 
+@import "../mixins";
+
+
 @mixin reset {
    margin: 0;
    padding: 0;
  }
 
-ul {
-   @include reset;
-}
 
-header {
+
+
+ header {
    position: absolute;
    left: 0;
    top: -175px;
    width: 100%;
-   
    display: flex;
-   justify-content: flex-end;
-  
-
-
    
-   .logo  {
-      width: 24px;
-      height: 24px;
-      
-      
+   
+
+   @include mobile-portrait-only {
+
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+      display: block;
    }
+   
+   .logo-block {
 
-   .header-nav li {
       display: inline-block;
-      vertical-align: middle;  
+      vertical-align: middle;
+      padding-right: 90px;
+      text-transform: uppercase;
+      font-size: 10px;
+       line-height: 16px;
+       font-family: 'Roboto', italic;
 
-      &:first-child {
-        
-         padding-right: 90px;
+
+
+
+
+
+      @include mobile-portrait-only {
+         margin-bottom: 17px;
       }
 
      
-      
-      .nav-link {
+
+
+      .logo  {
+         width: 24px;
+         height: 24px;
+         vertical-align: middle;
+      }
+
+      span {
+         font-size: 10px;
+         line-height: 16px;
          list-style: none;
          text-decoration: none;
          color: $darkgray;
          text-transform: uppercase;
-         font-size: 10px;
-         line-height: 16px;
          font-family: 'Roboto', italic;
       }
+   }
+
+
+   .header-nav a {
+      display: inline-block;
+      vertical-align: middle;  
+      list-style: none;
+      text-decoration: none;
+      color: $darkgray;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 16px;
+      font-family: 'Roboto', italic;
+
+      @include mobile-portrait-only {
+         display: block;
+         
+      }
+
+      
+
+     
+      
+      
+     
       
       &:hover {
          color: $white;
@@ -64,6 +106,12 @@ header {
       background: #3C3B3D;
       margin-left: auto;
 
+      @include mobile-portrait-only {
+         margin-top: 18px;
+        
+         
+      }
+
    }
 
    ::placeholder {
@@ -74,9 +122,19 @@ header {
    padding-left: 10px;
 
 
-      
-      
+   
+  
+
+
+
+  
+ 
+
+   
+
 }
+      
+
 
 
 

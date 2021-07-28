@@ -9,6 +9,13 @@
       height: auto;
       width: 100%;
       margin: auto;  
+
+      @include mobile-portrait-only {
+         width: 100%;
+         padding-right: 20px;
+         padding-left: 20px;
+         display: block;
+         }
      
    }   
    
@@ -21,16 +28,35 @@
 
    h2 {
       margin-bottom: 57px;
+
+      @include mobile-portrait-only {
+
+
+         font-size: 18px;
+         line-height: 27px;
+         text-align: left;
+         }
+
    }
 
    .section-inner-track {
       @extend %flex-between; 
       flex-direction: row;
+
+      @include mobile-portrait-only {
+         display: flex;
+         flex-direction: column;
+         }
+
       
 
       .inner-column {
          width: 50%;
          display: block;
+
+         @include mobile-portrait-only {
+            width: 100%
+            }
       }
    }
   
@@ -42,9 +68,19 @@
       vertical-align: middle;
       @extend %flex-between;
 
+      @include mobile-portrait-only {
+         width: auto;
+         margin: 0px 0px 25px 0px;
+         }
+   
       .track-info {
          text-align: left;
       }
+
+     
+
+     
+
 
      
          
@@ -54,6 +90,10 @@
             color: $white;
             font-size: 12.8px;
             line-height: 19.2px;
+
+           
+
+            
            
          }
 

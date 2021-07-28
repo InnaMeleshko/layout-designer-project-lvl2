@@ -1,56 +1,122 @@
+@import "../mixins";
+
+/*News*/
 
 .section-news {
-
    background-color: $black;
    padding-top: 100px;
    width: 100%;
    height: auto;
    text-align: center;
-
+   
    .container {
       height: auto;
       width: 100%;
       margin: auto;
       position: relative;
+
+      @include mobile-portrait-only {
+         width: 100%;
+         padding-right: 20px;
+         padding-left: 20px;
+        
+      }
    }
+
    @media (min-width: 1240px){
       .container {
       max-width: 1200px;
       }
    }
-  
-  
-
+   
    h2 {
       margin-bottom: 50px;
+
+      @include mobile-portrait-only {
+         font-size: 18px;
+         line-height: 27px;
+         text-align: center;
+      }
    }
 
-   .news-item {
-      @extend %flex-between;
+   .news-item-first {
+      display: flex;
+      justify-content: space-between;
       text-align: left;
-      padding-bottom: 65px;
+      
+      @include mobile-portrait-only {
+         flex-wrap: wrap;
+
+      }
+
+      
       
 
       &:last-child {
          padding-bottom: 0;
       }
 
-      h3 {
-         margin-bottom: 30px;
-         text-transform: capitalize;
+      
+
+    
+         h3 {
+            margin-bottom: 30px;
+            text-transform: capitalize;
+
+            @include mobile-portrait-only {
+               font-size: 16px;
+               line-height: 24px;
+               font-weight: normal;
+               text-transform: capitalize;
+               margin-bottom: 18px;
+            }
+         }
+         
+         
+         .img-left {
+            height: auto;
+            width: auto;
+            margin-right: 50px;
+            margin-bottom: 65px;
+            
+
+
+            @include mobile-portrait-only {
+               width: 100%;
+               margin-bottom: 50px;
+               margin-right: 0px;
+               
+               
+            }
+         }
+
+
+
+         .news-body {
+            width: 100%;
+         }
+         
+         @include mobile-portrait-only {
+            display: block;
+            width: 100%;
+            margin-right: 0px;
+         }
       }
 
-      .item-img-left {
-         
-         height: auto;
-         width: 50%;
-      }
+    
 
-      .item-img-right {
+            
+
          
-         height: auto;
-         width: 50%;
-      }
+        
+
+         @include mobile-portrait-only {
+            
+            display: block;
+            width: 100%;
+            margin-left: 0px;
+         }
+      
 
       p {
          @extend %text-style;
@@ -63,11 +129,28 @@
 
       .news-footer {
 
+         width: 100%;
+         display: inline-block;
+         
+  
+         
+
          a {
 
             @extend %btn;
             background: none;
             border: 1px solid $white;
+            display: block;
+            width: fit-content;
+            
+
+            @include mobile-portrait-only {
+
+               font-size: 12.8px;
+               line-height: 19.2px;
+               font-weight: 400;
+              
+            }
 
          }
 
@@ -76,16 +159,68 @@
       }
       
       .news-author {
-      @extend %flex-start;
-         
-               img {
-                  width: 19px;
-                  height: 19px;
-               }
-
-               p {
-                 margin-bottom: 48px;
-               }
+         display: flex;
+         justify-content: start;
+         width: 100%;
+         img {
+            width: 19px;
+            height: 19px;
          }
+
+         p {
+            margin-bottom: 48px;
+            }
+      }
+
+      .news-item-second {
+
+         display: flex;
+         justify-content: space-between;
+         text-align: left;
+         
+         @include mobile-portrait-only {
+            flex-wrap: wrap;
+   
+         }
+
+         .news-block {
+
+            @include mobile-portrait-only {
+               flex-wrap: wrap;
+               order: 1;
+      
+            }
+
+         }
+         .img-right {
+            height: auto;
+            width: auto;
+            margin-left: 50px;
+            margin-bottom: 65px;
+         
+
+            @include mobile-portrait-only {
+               width: 100%;
+               margin-left: 0px;
+               margin-top: 64px;
+               order: 2;
+            }
+         }
+
+         h3 {
+            margin-bottom: 30px;
+            text-transform: capitalize;
+
+            @include mobile-portrait-only {
+               font-size: 16px;
+               line-height: 24px;
+               font-weight: normal;
+               text-transform: capitalize;
+               margin-bottom: 18px;
+            }
+         }
+
+
+
       }
 }

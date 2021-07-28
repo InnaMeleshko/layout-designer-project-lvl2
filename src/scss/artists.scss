@@ -4,13 +4,12 @@
 @import "blocks/tracks";
 @import "blocks/discography";
 @import "blocks/similar";
-
+@import "mixins";
 
 
 
 .section-artists {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      
       background-image: url('../images/Morten\ Harket.png');
       background-position: center;
       background-size: cover;
@@ -20,6 +19,14 @@
          width: 100%;
          margin: auto;
          position: relative;
+
+         @include mobile-portrait-only {
+
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
+            display: block;
+         }
       }
       @media (min-width: 1240px){
          .container {
@@ -30,6 +37,15 @@
 
       h1 {
          margin-bottom: 16px;
+
+         @include mobile-portrait-only {
+
+
+         font-size: 30px;
+         line-height: 45px;
+         }
+
+
       }
       
    
@@ -87,6 +103,13 @@
          padding: 20px 30px;
          margin-right: 1.5rem;
          display: inline-block;
+
+         @include mobile-portrait-only {
+
+
+            margin-bottom: 24px;
+            }
+   
          
 
          &:last-child {
@@ -94,4 +117,7 @@
             background-color: $red;
          }
       }
+
+
+      
 }

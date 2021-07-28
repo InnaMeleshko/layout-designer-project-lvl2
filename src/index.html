@@ -14,15 +14,16 @@
    <section class="section" id="page-description">
       <div class="container">
          <header class="header">
-            <img class="logo" src="./images/logo.svg" alt="ноты">
+            <div class="logo-block">
+               <img class="logo" src="./images/logo.svg" alt="ноты">
+               <span class="nav-link ml-16" href="">Music box</span>
+            </div>
+
             <nav class="header-nav">
-               <ul >
-                  <li><a class="nav-link ml-16" href="">Music box</a></li>
-                  <li><a class="nav-link mr-24" href="">Главная</a></li>
-                  <li><a class="nav-link mr-24" href="">Каталог</a></li>
-                  <li><a class="nav-link mr-24" href="">Исполнители</a></li>
-                  <li><a class="nav-link" href="">Контакты</a></li>
-               </ul> 
+               <a class="nav-link mr-24" href="">Главная</a>
+               <a class="nav-link mr-24" href="">Каталог</a>
+               <a class="nav-link mr-24" href="">Исполнители</a>
+               <a class="nav-link" href="">Контакты</a>
             </nav>
             <input class="input" type="email" id="header-input" name="email" placeholder="поиск...">
          </header>
@@ -78,16 +79,17 @@
       <section class="section-news">
          <div class="container">
             <h2>Последние новости</h2>
-
-            <div class="news-item">
-               <div class="item-img-left mr-50">
-                  <img src="../src/images/Music to Be Murdered By.png" alt="Picture of Eminem">
+            <div class="news-item-first">
+               <div class="news-img">
+                  <img class="img-left" src="../src/images/Music to Be Murdered By.png" alt="Picture of Eminem">
                </div>
-               <div class="item-text">
+
+               <div class="news-block">
                   <div class="news-body">
-                  <h3>Music to Be Murdered By</h3>
-                  <p class="mb-24">Новый альбом Eminem «Music to Be Murdered By» уже доступен
-                        в нашем сервисе. На альбоме вас ждёт 20 новых треков.</p>
+                     <h3>Music to Be Murdered By</h3>
+                     <p class="mb-24">Новый альбом Eminem «Music to Be Murdered By» уже доступен 
+                        в нашем сервисе. На альбоме вас ждёт 20 новых треков.
+                     </p>
                   </div>
                   <div class="news-footer">
                      <div class="news-author">
@@ -95,30 +97,33 @@
                         <p class="mr-16 orange">Music box</p>
                         <p>17/01/2020</p>
                      </div>
-                     <a href="#">К альбому</a>
+                     <a href="#">К альбому</a>  
                   </div>
                </div>
             </div>
 
-            <div class="news-item">
-               <div class="item-text">
+            <div class="news-item-second">
+               
+
+               <div class="news-block">
                   <div class="news-body">
-                  <h3>Ordinary Man</h3>
-                  <p class="mb-24">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man. 
-                     Слушайте в числе первых на Music Box</p>
+                     <h3>Ordinary Man</h3>
+                     <p class="mb-24">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man. 
+                        Слушайте в числе первых на Music Box
+                     </p>
                   </div>
                   <div class="news-footer">
-                  <div class="news-author">
-                     <img class="mr-16" src="../src/images/avatar.png" alt="picture of news author">
-                     <p class="mr-16 orange">Music box</p>
-                     <p>24/02/2020</p>
-                  </div>
-                  <a href="#">К альбому</a>
+                     <div class="news-author">
+                        <img class="mr-16" src="../src/images/avatar.png" alt="picture of news author">
+                        <p class="mr-16 orange">Music box</p>
+                        <p>24/02/2020</p>
+                     </div>
+                     <a href="#">К альбому</a>
                   </div>
                </div>
 
-               <div class="item-img-right ml-50">
-                  <img src="../src/images/Ordinary Man.png" alt="Picture of Ozzy">
+               <div class="news-img">
+                  <img class="img-right" src="../src/images/Ordinary Man.png" alt="Picture of Ozzy">
                </div>
             </div>
          </div>
@@ -127,13 +132,14 @@
       <section class="section-app" id="page-app">
          <div class="container">
             <h2>Мобильное приложение</h2>
+            
             <div class="mobile-item">
                <div class="mobile-text">
                   <p>Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства
                         на базе операционных систем Androind и iOS</p>
 
                   <p>С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
-                  <a href="">Скачать</a>
+                  <a class="pt-16 pb-16 pl-40 pr-40" href="">Скачать</a>
                </div>
 
                <div class="mobile-img">
@@ -172,10 +178,10 @@
             </div>
             <div class="footer-inner">
                <h4>Подписывайтесь</h4>
-               <a class="footer-link" href=""><img src="../src/images/Google+.png" alt="google"></a>
-               <a class="footer-link" href=""><img src="../src/images/Twitter.png" alt="twitter"></a>
-               <a class="footer-link" href=""><img src="../src/images/Facebook.png" alt="facebook"></a>
-               <a class="footer-link" href=""><img src="../src/images/Instagram.png" alt="instagrams"></a>
+               <a class="footer-link-img" href=""><img src="../src/images/Google+.png" alt="google"></a>
+               <a class="footer-link-img" href=""><img src="../src/images/Twitter.png" alt="twitter"></a>
+               <a class="footer-link-img" href=""><img src="../src/images/Facebook.png" alt="facebook"></a>
+               <a class="footer-link-img" href=""><img src="../src/images/Instagram.png" alt="instagrams"></a>
             </div>
          </div>
       </div>

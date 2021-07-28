@@ -2,21 +2,38 @@
 .mr-24 {
    margin-right: 24px;
 }
+.mb-24 {
+   margin-bottom: 24px;
+}
 
 .mr-16 {
    margin-right: 16px;
+}
+
+.pt-16 {
+   padding-top: 16px;
+}
+
+.pb-16 {
+   padding-bottom: 16px;
+}
+.pl-40 {
+   padding-left: 40px;
+}
+
+.pr-40 {
+   padding-right: 40px;
 }
 
 .ml-16 {
    margin-left: 16px;
 }
 
-.orange {
-   color: $orange;
-}
-
 .mr-40 {
    margin-right: 40px;
+}
+.mt-40 {
+   margin-top: 40px;
 }
 
 .mr-50 {
@@ -29,14 +46,25 @@
 
 
 
-.mt-40 {
-   margin-top: 40px;
-}
+
 
 .pt-100 {
    padding-top: 100px;
 }
-
-.mb-24 {
-   margin-bottom: 24px;
+.pb-100 {
+   padding-bottom: 100px;
 }
+
+.pt-200 {
+   padding-top: 200px;
+}
+.pb-200 {
+   padding-bottom: 200px;
+}
+
+
+.orange {
+   color: $orange;
+}
+
+

@@ -12,6 +12,13 @@
       width: 100%;
       margin: auto;
       position: relative;
+
+      @include mobile-portrait-only {
+         width: 100%;
+         padding-right: 20px;
+         padding-left: 20px;
+         display: block;
+      }
    }
    @media (min-width: 1240px){
       .container {
@@ -21,6 +28,13 @@
 
    h2 {
       margin-bottom: 48px;
+
+      @include mobile-portrait-only {
+
+         font-size: 18px;
+         line-height: 27px;
+         text-align: left;
+      }
    }
 
 
@@ -31,11 +45,25 @@
       .similar-item {
          margin-bottom: 25px;
          text-align: center;
+         margin-right: 50px;
+
+         @include mobile-portrait-only {
+            margin-right: 0px;
+            width: 50%;
+         }
                
             img {
                width: 250px;
                height: 250px;
                margin-bottom: 18px;
+
+               @include mobile-portrait-only {
+                  height: 137px;
+                  width: 137px;
+               }
+
+
+
             }
 
 
@@ -45,6 +73,12 @@
 
             p {
               @extend %text-style;
+
+              @include mobile-portrait-only {
+              text-align: center;
+            }
+
+             
             }
          }
    
