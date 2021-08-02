@@ -105,7 +105,7 @@ header {
       width: 24px;
       height: 24px;
       vertical-align: middle; }
-    header .logo-block span {
+    header .logo-block a {
       font-size: 10px;
       line-height: 16px;
       list-style: none;
@@ -620,8 +620,12 @@ input {
       @media (max-width: 414px) {
         .footer-section .footer-inner h4 {
           padding-bottom: 16px; } }
+    .footer-section .footer-inner li {
+      list-style-type: none; }
+    .footer-section .footer-inner .footer-icons {
+      display: inline-block; }
     .footer-section .footer-inner .footer-link {
-      display: block;
+      display: inline-block;
       text-decoration: none;
       color: #E0E0E0; }
       @media (max-width: 414px) {
@@ -629,7 +633,7 @@ input {
           display: inline-block;
           width: 100%; } }
       .footer-section .footer-inner .footer-link .footer-link-img {
-        display: block; }
+        display: inline-block; }
 
 .footer-contacts {
   padding-bottom: 2rem;
@@ -640,6 +644,8 @@ input {
     .footer-contacts {
       display: flex;
       flex-wrap: wrap; } }
+  .footer-contacts li {
+    list-style-type: none; }
   .footer-contacts .contacts-link {
     text-decoration: none;
     color: #E0E0E0; }
@@ -648,8 +654,6 @@ input {
         display: inline-block;
         width: 100%;
         padding-bottom: 16px; } }
-    .footer-contacts .contacts-link:last-child {
-      margin-right: 0px; }
 
 /*Header*/
 header {
@@ -679,7 +683,7 @@ header {
       width: 24px;
       height: 24px;
       vertical-align: middle; }
-    header .logo-block span {
+    header .logo-block a {
       font-size: 10px;
       line-height: 16px;
       list-style: none;

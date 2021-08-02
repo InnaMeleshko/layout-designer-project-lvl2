@@ -332,10 +332,6 @@ border: 0;
       
       img {
       padding-right: 24px;
-      
-      
-         
-        
       }
 
       h4 {
@@ -347,9 +343,18 @@ border: 0;
          }
       }
 
+      li {
+
+      list-style-type: none;
+      }
+      
+      .footer-icons {
+         display: inline-block;
+      }
+
       .footer-link {
          @extend %text-style;
-         display: block;
+         display: inline-block;
          text-decoration: none;
          color: $gray;
 
@@ -360,7 +365,7 @@ border: 0;
          }
 
          .footer-link-img {
-            display: block;
+            display: inline-block;
          }
 
       
@@ -380,6 +385,10 @@ border: 0;
       display: flex;
       flex-wrap: wrap;
    }
+
+   li {
+      list-style-type: none;
+   }
    
    .contacts-link {
       @extend %text-style;
@@ -394,9 +403,7 @@ border: 0;
       
 
 
-      &:last-child {
-         margin-right: 0px;
-      }
+      
    }
 }
 
