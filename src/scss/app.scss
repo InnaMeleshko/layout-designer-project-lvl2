@@ -86,7 +86,7 @@ border: 0;
 
       }
 
-      label {
+      p {
          @extend %text-style;
          color: $white;
          text-align: center;
@@ -335,7 +335,7 @@ border: 0;
       }
 
       h4 {
-         margin-bottom: 15px;
+         padding-bottom: 15px;
          color: $white;
 
          @include mobile-portrait-only {
@@ -358,9 +358,7 @@ border: 0;
          text-decoration: none;
          color: $gray;
 
-         @include mobile-portrait-only {
-            display: inline-block;
-            width: 100%;
+    
    
          }
 
@@ -372,7 +370,7 @@ border: 0;
 
       }
    }
-}
+
 
 .footer-contacts {
    
