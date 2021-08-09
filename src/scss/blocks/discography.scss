@@ -64,10 +64,12 @@
                width: 250px;
                height: 250px;
                margin-bottom: 18px;
+               
 
                @include mobile-portrait-only {
                   width: 137px;
                   height: 137px;
+                  margin-right: 50px;
                }
 
 
@@ -77,10 +79,17 @@
 
             h4 {
                text-transform: capitalize;
+               @include mobile-portrait-only {
+                  text-align: left;
+               }
             }
 
             p {
                @extend %text-style;
+               text-transform: capitalize;
+               @include mobile-portrait-only {
+                  text-align: left;
+               }
             }
 
          @include mobile-portrait-only {

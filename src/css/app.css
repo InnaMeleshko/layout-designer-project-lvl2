@@ -253,9 +253,18 @@ header {
         @media (max-width: 414px) {
           .section-discography .discography-inner .discography-item img {
             width: 137px;
-            height: 137px; } }
+            height: 137px;
+            margin-right: 50px; } }
       .section-discography .discography-inner .discography-item h4 {
         text-transform: capitalize; }
+        @media (max-width: 414px) {
+          .section-discography .discography-inner .discography-item h4 {
+            text-align: left; } }
+      .section-discography .discography-inner .discography-item p {
+        text-transform: capitalize; }
+        @media (max-width: 414px) {
+          .section-discography .discography-inner .discography-item p {
+            text-align: left; } }
       @media (max-width: 414px) {
         .section-discography .discography-inner .discography-item {
           width: 50%;
