@@ -335,7 +335,7 @@ border: 0;
       }
 
       h4 {
-         padding-bottom: 15px;
+         margin-bottom: 15px;
          color: $white;
 
          @include mobile-portrait-only {
