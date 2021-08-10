@@ -64,7 +64,7 @@ border: 0;
 
       h1 {
          width: 100%;
-         
+
          @include mobile-portrait-only {
             font-size: 30px;
             line-height: 45px;
@@ -208,7 +208,7 @@ border: 0;
    }
    
    h2 {
-      padding-bottom: 60px;
+      margin-bottom: 60px;
 
       @include mobile-portrait-only {
          font-size: 18px;
