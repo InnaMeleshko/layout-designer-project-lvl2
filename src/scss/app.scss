@@ -63,11 +63,13 @@ border: 0;
 
 
       h1 {
+         width: 100%;
+         
          @include mobile-portrait-only {
             font-size: 30px;
             line-height: 45px;
             padding-top: 78px;
-            width: 100%;
+            
             
          }
       }
