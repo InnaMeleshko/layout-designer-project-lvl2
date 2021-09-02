@@ -209,6 +209,7 @@ border: 0;
    
    h2 {
       margin-bottom: 60px;
+      
 
       @include mobile-portrait-only {
          font-size: 18px;
