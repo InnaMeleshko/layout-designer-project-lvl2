@@ -75,6 +75,7 @@ border: 0;
       }
 
       h2 {
+         
          margin-bottom: 30px;
          width: 100%;
 
@@ -199,6 +200,7 @@ border: 0;
          padding-right: 20px;
          padding-left: 20px;
 
+
       }
    }
    @media (min-width: 1240px){
@@ -209,7 +211,7 @@ border: 0;
    
    h2 {
       margin-bottom: 60px;
-      
+
 
       @include mobile-portrait-only {
          font-size: 18px;
