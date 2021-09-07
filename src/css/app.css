@@ -35,8 +35,6 @@ p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 64px;
-  line-height: 100%;
   color: #FFFFFF; }
 
 .section-artists .input-button, .section .section-inner .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item a, .section-news .news-footer a {
@@ -76,6 +74,10 @@ ul {
 .section {
   padding-top: 200px;
   padding-bottom: 200px; }
+
+.section-prising .section-prising-inner .pricing-item small {
+  font-size: 12.8px;
+  line-height: 19.2px; }
 
 /*Header*/
 header {
@@ -807,7 +809,8 @@ header {
             margin-right: 20px; } }
       .section-prising .section-prising-inner .pricing-item h3 {
         padding-bottom: 200px;
-        padding-top: 24px; }
+        padding-top: 24px;
+        line-height: 36px; }
         @media (max-width: 414px) {
           .section-prising .section-prising-inner .pricing-item h3 {
             font-size: 16px;
@@ -836,7 +839,9 @@ header {
         background: none;
         text-decoration: none;
         border: 1px solid #FFFFFF;
-        display: inline-block; }
+        display: inline-block;
+        font-size: 16px;
+        line-height: 24px; }
         @media (max-width: 414px) {
           .section-prising .section-prising-inner .pricing-item a {
             font-size: 16px;
