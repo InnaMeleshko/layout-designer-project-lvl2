@@ -37,7 +37,7 @@ p {
   font-weight: normal;
   color: #FFFFFF; }
 
-.section-artists .input-button, .section .section-inner .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item a, .section-news .news-footer a {
+.section-artists .input-button, .section .section-inner .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item .btn, .section-news .news-footer a {
   width: 100%;
   padding: 20px 30px;
   border-radius: 5px;
@@ -835,15 +835,15 @@ header {
         color: #FFFFFF;
         margin-top: 64px;
         margin-bottom: 64px; }
-      .section-prising .section-prising-inner .pricing-item a {
+      .section-prising .section-prising-inner .pricing-item .btn {
         background: none;
-        text-decoration: none;
         border: 1px solid #FFFFFF;
         display: inline-block;
         font-size: 16px;
-        line-height: 24px; }
+        line-height: 24px;
+        text-decoration: none; }
         @media (max-width: 414px) {
-          .section-prising .section-prising-inner .pricing-item a {
+          .section-prising .section-prising-inner .pricing-item .btn {
             font-size: 16px;
             line-height: 24px; } }
   .section-prising p {
