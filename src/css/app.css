@@ -644,8 +644,6 @@ input {
           padding-bottom: 16px; } }
     .footer-section .footer-inner li {
       list-style-type: none; }
-    .footer-section .footer-inner .footer-icons {
-      display: inline-block; }
     .footer-section .footer-inner .footer-link {
       display: inline-block;
       text-decoration: none;
@@ -810,7 +808,8 @@ header {
       .section-prising .section-prising-inner .pricing-item h3 {
         padding-bottom: 200px;
         padding-top: 24px;
-        line-height: 36px; }
+        line-height: 36px;
+        font-weight: normal; }
         @media (max-width: 414px) {
           .section-prising .section-prising-inner .pricing-item h3 {
             font-size: 16px;

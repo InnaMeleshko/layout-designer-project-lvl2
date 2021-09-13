@@ -112,6 +112,7 @@
             padding-bottom: 200px;
             padding-top: 24px;
             line-height: 36px;
+            font-weight: normal;
 
             @include mobile-portrait-only {
                font-size: 16px;
@@ -145,6 +146,8 @@
             color: $white;
             margin-top: 64px;
             margin-bottom: 64px;
+
+      
          }
 
          .btn {
@@ -179,6 +182,7 @@
       @include mobile-portrait-only {
          padding-right: 20px;
          padding-left: 20px;
+
 
 
       }
