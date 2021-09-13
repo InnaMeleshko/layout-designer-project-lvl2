@@ -342,9 +342,11 @@ border: 0;
       padding-right: 24px;
       }
 
-      h4 {
+      h2 {
          padding-bottom: 15px;
          color: $white;
+         font-size: 18px;
+         line-height: 27px;
 
          @include mobile-portrait-only {
             padding-bottom: 16px;

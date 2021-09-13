@@ -636,11 +636,13 @@ input {
         display: inline-block; } }
     .footer-section .footer-inner img {
       padding-right: 24px; }
-    .footer-section .footer-inner h4 {
+    .footer-section .footer-inner h2 {
       padding-bottom: 15px;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      font-size: 18px;
+      line-height: 27px; }
       @media (max-width: 414px) {
-        .footer-section .footer-inner h4 {
+        .footer-section .footer-inner h2 {
           padding-bottom: 16px; } }
     .footer-section .footer-inner li {
       list-style-type: none; }
