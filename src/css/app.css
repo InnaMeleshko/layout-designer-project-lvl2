@@ -894,6 +894,7 @@ header {
     .section-news .news-item-first:last-child {
       padding-bottom: 0; }
     .section-news .news-item-first h3 {
+      font-size: 30px;
       margin-bottom: 30px;
       text-transform: capitalize; }
       @media (max-width: 414px) {
