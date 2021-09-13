@@ -88,8 +88,9 @@
       color: $darkgray;
       text-transform: uppercase;
       font-size: 10px;
-      line-height: 16px;
+      line-height: 16.5px;
       font-family: 'Roboto', italic;
+      font-weight: 400;
 
       @include mobile-portrait-only {
          display: block;
@@ -103,12 +104,7 @@
       
       
      
-      
-      &:hover {
-         color: $white;
-         font-size: 11px;
-         transition: .2s;
-      }
+    
 
       }
    

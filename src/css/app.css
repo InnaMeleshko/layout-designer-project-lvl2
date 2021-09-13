@@ -1,7 +1,6 @@
 * {
   font-family: Roboto,'Open Sans', sans-serif;
   font-size: 18px;
-  line-height: 1.5;
   color: #cacaca; }
 
 h1, h2, h3, h4 {
@@ -129,16 +128,13 @@ header {
   color: #cacaca;
   text-transform: uppercase;
   font-size: 10px;
-  line-height: 16px;
-  font-family: 'Roboto', italic; }
+  line-height: 16.5px;
+  font-family: 'Roboto', italic;
+  font-weight: 400; }
   @media (max-width: 414px) {
     .header-nav a {
       display: block;
       width: 100%; } }
-  .header-nav a:hover {
-    color: #FFFFFF;
-    font-size: 11px;
-    transition: .2s; }
 
 .input {
   width: 245px;
@@ -723,16 +719,13 @@ header {
   color: #cacaca;
   text-transform: uppercase;
   font-size: 10px;
-  line-height: 16px;
-  font-family: 'Roboto', italic; }
+  line-height: 16.5px;
+  font-family: 'Roboto', italic;
+  font-weight: 400; }
   @media (max-width: 414px) {
     .header-nav a {
       display: block;
       width: 100%; } }
-  .header-nav a:hover {
-    color: #FFFFFF;
-    font-size: 11px;
-    transition: .2s; }
 
 .input {
   width: 245px;
