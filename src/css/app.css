@@ -70,10 +70,6 @@ ul {
   margin: 0;
   padding: 0; }
 
-.section {
-  padding-top: 200px;
-  padding-bottom: 200px; }
-
 .section-prising .section-prising-inner .pricing-item small {
   font-size: 12.8px;
   line-height: 19.2px; }
@@ -456,6 +452,8 @@ input {
   border: 0; }
 
 .section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover; }
@@ -926,7 +924,8 @@ header {
       background: none;
       border: 1px solid #FFFFFF;
       display: block;
-      width: fit-content; }
+      width: fit-content;
+      padding: 16px 30px; }
       @media (max-width: 414px) {
         .section-news .news-footer a {
           font-size: 12.8px;

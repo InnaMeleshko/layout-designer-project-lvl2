@@ -144,6 +144,7 @@
             border: 1px solid $white;
             display: block;
             width: fit-content;
+            padding: 16px 30px;
             
 
             @include mobile-portrait-only {
