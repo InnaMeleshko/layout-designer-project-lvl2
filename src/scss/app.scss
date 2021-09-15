@@ -108,8 +108,11 @@ border: 0;
 
       .form {
          @extend %flex-between;
+         flex-direction: row;
+         flex-wrap: wrap;
          width: 100%;
          max-width: 570px;
+
 
          @include mobile-portrait-only {
             display: block;
@@ -127,8 +130,10 @@ border: 0;
             margin-bottom: 1.5rem;
             border: 2px solid $white;
             border-radius: 3px;
-            
             background: none;
+            display: block;
+            flex: 1 1 0;
+            
 
             @include mobile-portrait-only {
                width: 100%;
@@ -149,13 +154,20 @@ border: 0;
             &:last-child {
                margin-right: 0;
             }
+         }
 
+         .input-button {
+            width: 100%;
+            @extend %btn;
+            max-width: 570px;
+            background-color: $green;
+            border: none;
+            font-family: 'Arial';
+            font-size: 13.3px;
+            flex: 100%;
+            order: 3;
             
-
-
-
             
-         
          }
          
         
@@ -163,16 +175,7 @@ border: 0;
       
       
 
-      .input-button {
-         @extend %btn;
-         max-width: 570px;
-         background-color: $green;
-         border: none;
-         font-family: 'Arial';
-         font-size: 13.3px;
-         
-         
-      }
+   
 
 
    

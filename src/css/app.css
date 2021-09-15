@@ -36,7 +36,7 @@ p {
   font-weight: normal;
   color: #FFFFFF; }
 
-.section-artists .input-button, .section .section-inner .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item .btn, .section-news .news-footer a {
+.section-artists .input-button, .section .section-inner .form .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item .btn, .section-news .news-footer a {
   width: 100%;
   padding: 20px 30px;
   border-radius: 5px;
@@ -81,7 +81,8 @@ header {
   top: -175px;
   width: 100%;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  z-index: 2; }
   header li {
     list-style-type: none;
     display: inline-block; }
@@ -500,6 +501,8 @@ input {
           font-size: 16px;
           line-height: 24px; } }
     .section .section-inner .form {
+      flex-direction: row;
+      flex-wrap: wrap;
       width: 100%;
       max-width: 570px; }
       @media (max-width: 414px) {
@@ -515,7 +518,9 @@ input {
         margin-bottom: 1.5rem;
         border: 2px solid #FFFFFF;
         border-radius: 3px;
-        background: none; }
+        background: none;
+        display: block;
+        flex: 1 1 0; }
         @media (max-width: 414px) {
           .section .section-inner .form .input {
             width: 100%;
@@ -529,12 +534,15 @@ input {
           color: #FFFFFF; }
         .section .section-inner .form .input:last-child {
           margin-right: 0; }
-    .section .section-inner .input-button {
-      max-width: 570px;
-      background-color: #34C176;
-      border: none;
-      font-family: 'Arial';
-      font-size: 13.3px; }
+      .section .section-inner .form .input-button {
+        width: 100%;
+        max-width: 570px;
+        background-color: #34C176;
+        border: none;
+        font-family: 'Arial';
+        font-size: 13.3px;
+        flex: 100%;
+        order: 3; }
 
 /*Section-app*/
 .section-app {
@@ -674,7 +682,8 @@ header {
   top: -175px;
   width: 100%;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  z-index: 2; }
   header li {
     list-style-type: none;
     display: inline-block; }
