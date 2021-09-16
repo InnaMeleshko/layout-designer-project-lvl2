@@ -476,16 +476,13 @@ input {
     flex-direction: column;
     text-align: center;
     align-items: center; }
-    .section .section-inner h1 {
-      width: 100%; }
-      @media (max-width: 414px) {
-        .section .section-inner h1 {
-          font-size: 30px;
-          line-height: 45px;
-          padding-top: 78px; } }
+    @media (max-width: 414px) {
+      .section .section-inner h1 {
+        font-size: 30px;
+        line-height: 45px;
+        padding-top: 78px; } }
     .section .section-inner h2 {
-      margin-bottom: 30px;
-      width: 100%; }
+      margin-bottom: 30px; }
       @media (max-width: 414px) {
         .section .section-inner h2 {
           font-size: 18px;
@@ -507,7 +504,6 @@ input {
       max-width: 570px; }
       @media (max-width: 414px) {
         .section .section-inner .form {
-          display: block;
           width: 100%;
           margin-bottom: 24px; } }
       .section .section-inner .form .input {

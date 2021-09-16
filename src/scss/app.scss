@@ -50,13 +50,8 @@ border: 0;
          max-width: 1200px;
          }
       }
-
       
-
-  
-
-   
-   .section-inner {
+      .section-inner {
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -64,7 +59,7 @@ border: 0;
 
 
       h1 {
-         width: 100%;
+         
 
          @include mobile-portrait-only {
             font-size: 30px;
@@ -78,16 +73,13 @@ border: 0;
       h2 {
          
          margin-bottom: 30px;
-         width: 100%;
+         
 
          @include mobile-portrait-only {
 
             font-size: 18px;
             line-height: 27px;
             margin-bottom: 16px;
-            
-
-
          }
 
       }
@@ -115,7 +107,7 @@ border: 0;
 
 
          @include mobile-portrait-only {
-            display: block;
+            
             width: 100%;
             margin-bottom: 24px;
          }
