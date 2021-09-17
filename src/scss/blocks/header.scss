@@ -47,16 +47,18 @@
          }
       }
 
-      span {
-         font-size: 10px;
-         line-height: 16.5px;
+      span  {
+         display: inline-block;
+         vertical-align: middle;  
          list-style: none;
          text-decoration: none;
          color: $darkgray;
          text-transform: uppercase;
-         font-family: 'Roboto', italic;
+         font-size: 10px;
+         line-height: 16px;
+         font-weight: 400;
          margin-right: 90px;
-         vertical-align: middle;
+         
 
 
          @include mobile-portrait-only {
@@ -76,8 +78,8 @@
       color: $darkgray;
       text-transform: uppercase;
       font-size: 10px;
-      line-height: 16.5px;
-      font-family: 'Roboto', italic;
+      line-height: 16px;
+      
       font-weight: 400;
 
       @include mobile-portrait-only {

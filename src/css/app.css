@@ -107,15 +107,16 @@ header {
       header .logo {
         margin-bottom: 17px; } }
   header span {
-    font-size: 10px;
-    line-height: 16.5px;
+    display: inline-block;
+    vertical-align: middle;
     list-style: none;
     text-decoration: none;
     color: #cacaca;
     text-transform: uppercase;
-    font-family: 'Roboto', italic;
-    margin-right: 90px;
-    vertical-align: middle; }
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-right: 90px; }
     @media (max-width: 414px) {
       header span {
         margin-bottom: 17px;
@@ -129,8 +130,7 @@ header {
   color: #cacaca;
   text-transform: uppercase;
   font-size: 10px;
-  line-height: 16.5px;
-  font-family: 'Roboto', italic;
+  line-height: 16px;
   font-weight: 400; }
   @media (max-width: 414px) {
     .header-nav a {
@@ -705,15 +705,16 @@ header {
       header .logo {
         margin-bottom: 17px; } }
   header span {
-    font-size: 10px;
-    line-height: 16.5px;
+    display: inline-block;
+    vertical-align: middle;
     list-style: none;
     text-decoration: none;
     color: #cacaca;
     text-transform: uppercase;
-    font-family: 'Roboto', italic;
-    margin-right: 90px;
-    vertical-align: middle; }
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-right: 90px; }
     @media (max-width: 414px) {
       header span {
         margin-bottom: 17px;
@@ -727,8 +728,7 @@ header {
   color: #cacaca;
   text-transform: uppercase;
   font-size: 10px;
-  line-height: 16.5px;
-  font-family: 'Roboto', italic;
+  line-height: 16px;
   font-weight: 400; }
   @media (max-width: 414px) {
     .header-nav a {
