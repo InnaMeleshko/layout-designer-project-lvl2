@@ -453,8 +453,6 @@ input {
   border: 0; }
 
 .section {
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover; }
@@ -475,13 +473,18 @@ input {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center; }
-    @media (max-width: 414px) {
-      .section .section-inner h1 {
-        font-size: 30px;
-        line-height: 45px;
-        padding-top: 78px; } }
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px; }
+    .section .section-inner h1 {
+      width: 100%; }
+      @media (max-width: 414px) {
+        .section .section-inner h1 {
+          font-size: 30px;
+          line-height: 45px;
+          padding-top: 78px; } }
     .section .section-inner h2 {
+      width: 100%;
       margin-bottom: 30px; }
       @media (max-width: 414px) {
         .section .section-inner h2 {
