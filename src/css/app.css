@@ -70,6 +70,10 @@ ul {
   margin: 0;
   padding: 0; }
 
+.section {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+
 .section-prising .section-prising-inner .pricing-item small {
   font-size: 12.8px;
   line-height: 19.2px; }
@@ -473,9 +477,7 @@ input {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px; }
+    align-items: center; }
     .section .section-inner h1 {
       width: 100%; }
       @media (max-width: 414px) {

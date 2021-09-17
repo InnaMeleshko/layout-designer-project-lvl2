@@ -25,6 +25,7 @@ border: 0;
    background-image: url('../images/banner.png');
    background-position: center;
    background-size: cover;
+   @extend %section-padding-200;
   
 
    .container {
@@ -55,8 +56,8 @@ border: 0;
       flex-direction: column;
       text-align: center;
       align-items: center;
-      padding-top: 200px;
-      padding-bottom: 200px;
+      
+      
 
 
       h1 {
