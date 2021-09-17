@@ -10,21 +10,26 @@
    
 
 </head>
+
 <body>
-   <section class="section"  id="page-description">
+   <section class="section" id="page-description">
       <div class="container" >
          <header class="header">
-           <img class="logo" src="./images/logo.svg" alt="ноты">
-           <span class="ml-16" href="">Music box</span>
-           <nav>
+            <div class="nav-links">
+              <div class="nav-logo">
+                 <img class="logo mr-16" src="./images/logo.svg" alt="ноты">
+                 <p href="">Music box</p>
+               </div>
                <ul class="header-nav">
                  <li class="mr-24"><a class="nav-link" href="">Главная</a></li>
                  <li class="mr-24"><a class="nav-link" href="">Каталог</a></li>
                  <li class="mr-24"><a class="nav-link" href="">Исполнители</a></li>
                  <li><a class="nav-link" href="">Контакты</a></li>
                </ul>
-            </nav>
-            <input class="input" type="email" id="header-input" name="email" placeholder="поиск...">
+            </div>
+            <form class="search-form">
+               <input class="input"   type="search" name="search" placeholder="поиск...">
+            </form>
          </header>
 
          <div class="section-inner">

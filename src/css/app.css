@@ -87,6 +87,9 @@ header {
   display: flex;
   align-items: center;
   z-index: 2; }
+  header .nav-links {
+    display: flex;
+    justify-content: space-between; }
   header li {
     list-style-type: none;
     display: inline-block; }
@@ -106,7 +109,7 @@ header {
     @media (max-width: 414px) {
       header .logo {
         margin-bottom: 17px; } }
-  header span {
+  header p {
     display: inline-block;
     vertical-align: middle;
     list-style: none;
@@ -118,7 +121,7 @@ header {
     font-weight: 400;
     margin-right: 90px; }
     @media (max-width: 414px) {
-      header span {
+      header p {
         margin-bottom: 17px;
         vertical-align: middle; } }
 
@@ -137,15 +140,16 @@ header {
       display: block;
       width: 100%; } }
 
-.input {
-  width: 245px;
-  height: 25px;
-  border-radius: 50px;
-  background: #3C3B3D;
+.search-form {
   margin-left: auto; }
-  @media (max-width: 414px) {
-    .input {
-      margin-top: 18px; } }
+  .search-form .input {
+    width: 245px;
+    height: 25px;
+    border-radius: 50px;
+    background: #3C3B3D; }
+    @media (max-width: 414px) {
+      .search-form .input {
+        margin-top: 18px; } }
 
 ::placeholder {
   font-size: 13.3px;
@@ -685,6 +689,9 @@ header {
   display: flex;
   align-items: center;
   z-index: 2; }
+  header .nav-links {
+    display: flex;
+    justify-content: space-between; }
   header li {
     list-style-type: none;
     display: inline-block; }
@@ -704,7 +711,7 @@ header {
     @media (max-width: 414px) {
       header .logo {
         margin-bottom: 17px; } }
-  header span {
+  header p {
     display: inline-block;
     vertical-align: middle;
     list-style: none;
@@ -716,7 +723,7 @@ header {
     font-weight: 400;
     margin-right: 90px; }
     @media (max-width: 414px) {
-      header span {
+      header p {
         margin-bottom: 17px;
         vertical-align: middle; } }
 
@@ -735,15 +742,16 @@ header {
       display: block;
       width: 100%; } }
 
-.input {
-  width: 245px;
-  height: 25px;
-  border-radius: 50px;
-  background: #3C3B3D;
+.search-form {
   margin-left: auto; }
-  @media (max-width: 414px) {
-    .input {
-      margin-top: 18px; } }
+  .search-form .input {
+    width: 245px;
+    height: 25px;
+    border-radius: 50px;
+    background: #3C3B3D; }
+    @media (max-width: 414px) {
+      .search-form .input {
+        margin-top: 18px; } }
 
 ::placeholder {
   font-size: 13.3px;
