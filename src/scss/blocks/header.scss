@@ -2,6 +2,7 @@
 @import "../mixins";
 
 
+
 @mixin reset {
    margin: 0;
    padding: 0;
@@ -15,11 +16,14 @@
 
  header {
    position: absolute;
-   left: 0;
+   background: transparent;
    top: -175px;
    width: 100%;
+   font-size: 11px;
+   z-index: 9999;
    display: flex;
-   align-items: center;
+   flex-direction: row;
+   justify-content: center;
    
 
    .nav-links {
@@ -45,6 +49,7 @@
       padding-left: 20px;
       display: block;
       }
+
       .logo  {
          width: 24px;
          height: 24px;
@@ -102,17 +107,18 @@
 
 
    .input {
-      box-sizing: border-box;
-      width: 100%;
-      min-width: 250px;
-      max-width: 450px;
-      height: 25px;
-      padding: 0 10px;
-      color: #757575;
-      font-family: Arial, sans-serif;
-      background-color: #3c3b3d;
-      border: 0;
-      border-radius: 50px;
+      
+         font: 13px Arial, sans-serif;
+         background-color: #3C3B3D;
+         color: #757575;
+         border-radius: 15px;
+         height: 1.5em;
+         border: 3px solid #3C3B3D;
+         padding: 10px 65px 10px 5px;
+
+
+     
+
 
       
 
@@ -146,8 +152,3 @@
 }
 }
       
-
-
-
-
-
