@@ -8,146 +8,122 @@
    padding: 0;
 }
 
-
-.section {
-   position: relative;
-
-   .container {
-      width: 100%;
-      position: relative;
-      
-      header {
-      position: absolute;
-      background: transparent;
-      top: -175px;
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
+header {
+   position: absolute;
+   background: transparent;
+   top: -175px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;  
+   vertical-align: middle; 
    
+   
+   .nav-logo {
+      
+      display: flex;
+      justify-content: space-between;
+      margin-right: 90px;
+      
+            
+      .logo  {
+         width: 24px;
+         height: 24px;
+         
+           
+   
+         @include mobile-portrait-only {
+               margin-bottom: 17px;
+         }
 
-      .nav-links {
-         display: flex;
-         justify-content: space-between;
       }
+
+      p {
+         
+        
+         list-style: none;
+         text-decoration: none;
+         color: #cacaca;
+         text-transform: uppercase;
+         font-size: 11px;
+         line-height: 16.5px;
+         font-weight: 400;
+      }
+   }
+
+   .header-nav {
+
+      display: flex;
+      justify-content: space-between;
+
+
 
       li {
          list-style-type: none; 
          display: inline-block;
 
+        
          @include mobile-portrait-only {
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
             display: block;
          }
 
-   }
-   
-   
-
-   @include mobile-portrait-only {
-      width: 100%;
-      padding-right: 20px;
-      padding-left: 20px;
-      display: block;
-      }
-
-      .logo  {
-         width: 24px;
-         height: 24px;
-         vertical-align: middle;
-
+         a {
+            display: inline-block;
+            
+            list-style: none;
+            text-decoration: none;
+            color: $darkgray;
+            text-transform: uppercase;
+            font-size: 11px;
+            line-height: 16.5px;
+            
+            font-weight: 400;
+      
             @include mobile-portrait-only {
-            margin-bottom: 17px;
+               display: block;
+               width: 100%;
+               
+            }
          }
-      }
 
-      p  {
-         display: inline-block;
-         vertical-align: middle;  
-         list-style: none;
-         text-decoration: none;
-         color: $darkgray;
-         text-transform: uppercase;
-         font-size: 11px;
-         line-height: 16.5px;
-         font-weight: 400;
-         margin-right: 90px;
-         
-
-
-         @include mobile-portrait-only {
-         margin-bottom: 17px;
-         vertical-align: middle;
-
-         }
+   
       }
    }
+   
+.input-nav {
+   background: #3C3B3D;
+   border-radius: 50px;
+   background-color: #3C3B3D;
+   color: #757575;
+   border-radius: 50px;
+   text-transform: uppercase;
+   
+   padding-left: 10px;
+   margin-left: auto;
 
-
-   .header-nav a {
-      display: inline-block;
-      vertical-align: middle;  
-      list-style: none;
-      text-decoration: none;
-      color: $darkgray;
+   &::placeholder {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13.3px;
+      line-height: 15px;
       text-transform: uppercase;
-      font-size: 11px;
-      line-height: 16.5px;
-      
-      font-weight: 400;
+      color: #757575;
 
-      @include mobile-portrait-only {
-         display: block;
-         width: 100%;
-         
-      }
-}
-   
-   
-      
-
-
-   .input {
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 13.3px; 
-         line-height: 15px;
-         background-color: #3C3B3D;
-         color: #757575;
-         border-radius: 50px;
-         height: 25px;
-         text-transform: uppercase;
-         vertical-align: middle;
-         padding-left: 10px;
-         margin-left: auto;
-
-
-     
-
-
-      
-
-      @include mobile-portrait-only {
-         margin-top: 18px;
-        
-         
-      }
-   }
 
    }
-
    
-   
-   
-
-
-   
-  
-  
-
-
-  
- 
-
-   
-
+   @include mobile-portrait-only {
+         margin-top: 18pх;
+   }
 }
-      
+}
+
+
+
+
+
+   

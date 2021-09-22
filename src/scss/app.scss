@@ -32,7 +32,7 @@ border: 0;
       height: auto;
       width: 100%;
       margin: auto;
-     
+     position: relative;
 
 
      
@@ -143,6 +143,7 @@ border: 0;
             display: block;
             flex: 1 1 0;
             
+            
 
             @include mobile-portrait-only {
                width: 100%;
@@ -151,11 +152,11 @@ border: 0;
 
 
             &::placeholder {
-               font-family: Arial, Helvetica, sans-serif;
+               font-family: 'Roboto';
                font-style: normal;
-               font-weight: 400;
-               font-size: 13.3px;
-               line-height: 15px;
+               font-weight: 700;
+               font-size: 14px;
+               line-height: 16px;
                color: $white;
             }
 
@@ -172,6 +173,8 @@ border: 0;
             border: none;
             font-family: 'Arial';
             font-size: 13.3px;
+            line-height: 15px;
+            text-transform: uppercase;
             flex: 100%;
             order: 3;
             border-radius: 5px;
