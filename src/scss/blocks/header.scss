@@ -24,7 +24,8 @@ header {
       display: flex;
       justify-content: space-between;
       margin-right: 90px;
-      
+      line-height: 16.5px;
+      align-items: center;
             
       .logo  {
          width: 24px;
@@ -41,7 +42,8 @@ header {
       p {
          color: #cacaca;
          text-transform: uppercase;
-         line-height: 16.5px;
+        
+         
          
       }
    }
@@ -49,12 +51,17 @@ header {
    .header-nav {
       
       @extend %flex-between;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
 
 
 
       li {
          list-style-type: none; 
          display: inline-block;
+         font-size: 11px;
+         line-height: 16.5px;
 
         
          @include mobile-portrait-only {
@@ -62,14 +69,15 @@ header {
             padding-right: 20px;
             padding-left: 20px;
             display: block;
+            font-size: 11px;
+            line-height: 16.5px;
          }
 
          a {
             
             color: $darkgray;
             text-transform: uppercase;
-            font-size: 11px;
-            line-height: 16.5px;
+           
             
    
       
