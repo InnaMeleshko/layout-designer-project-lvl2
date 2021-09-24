@@ -48,8 +48,17 @@ h4 {
 p {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: normal;
 color: $white;
+font-size: 11px;
+line-height: 16px;
+font-weight: 400;
+}
+
+a {
+
+   list-style: none;
+   text-decoration: none;
+   font-weight: 400;
 }
 
 
@@ -121,6 +130,12 @@ ul {
    vertical-align: middle; 
 }
 
+
+.section-background {
+   background-image: url('../images/banner.png');
+   background-position: center;
+   background-size: cover;
+}
 
    
 
