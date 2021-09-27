@@ -66,6 +66,7 @@
       
       margin: 25px 50px;
       vertical-align: middle;
+      align-items: center;
       @extend %flex-between;
 
       @include mobile-portrait-only {

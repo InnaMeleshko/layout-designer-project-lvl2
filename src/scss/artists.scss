@@ -25,9 +25,11 @@
             width: 100%;
             padding-right: 20px;
             padding-left: 20px;
-            display: block;
+           
          }
       }
+
+
       @media (min-width: 1240px){
          .container {
          max-width: 1200px;
@@ -37,26 +39,20 @@
 
       h1 {
          margin-bottom: 16px;
-
          @include mobile-portrait-only {
-
-
-         font-size: 30px;
-         line-height: 45px;
+            font-size: 30px;
+            line-height: 45px;
          }
-
-
       }
       
-   
       p {
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
-            margin-bottom: 48px;
+
+         
+         font-size: 16px;
+         line-height: 24px;
+         margin-bottom: 48px;
       }
+      
 
       a img {
             width: 20px;
