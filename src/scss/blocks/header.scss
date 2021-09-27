@@ -12,11 +12,19 @@ header {
    position: absolute;
    background: transparent;
    top: -175px;
-   width: 100%;
    display: flex;
    flex-direction: row;
    justify-content: space-between;  
    vertical-align: middle;
+   width: 100%;
+
+   @include mobile-portrait-only {
+      margin-bottom: 17px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: calc(100% - 0px);
+   }
    
    
    .nav-logo {
@@ -26,25 +34,20 @@ header {
       margin-right: 90px;
       line-height: 16.5px;
       align-items: center;
+
+      @include mobile-portrait-only {
+         justify-content:  start;
+         margin-bottom: 17px;
+        }
             
       .logo  {
          width: 24px;
          height: 24px;
-         
-           
-   
-         @include mobile-portrait-only {
-               margin-bottom: 17px;
-         }
-
       }
 
       p {
          color: #cacaca;
          text-transform: uppercase;
-        
-         
-         
       }
    }
 
@@ -55,6 +58,15 @@ header {
       font-family: 'Roboto', sans-serif;
       font-style: normal;
 
+      @include mobile-portrait-only {
+         display: flex;
+         flex-direction: column;
+         align-content: flex-start;
+         align-items: flex-start;
+         flex-wrap: wrap;
+         
+      }
+
 
 
       li {
@@ -62,15 +74,13 @@ header {
          display: inline-block;
          font-size: 11px;
          line-height: 16.5px;
+         
 
         
          @include mobile-portrait-only {
-            width: 100%;
-            padding-right: 20px;
-            padding-left: 20px;
+            
             display: block;
-            font-size: 11px;
-            line-height: 16.5px;
+            
          }
 
          a {
@@ -78,31 +88,32 @@ header {
             color: $darkgray;
             text-transform: uppercase;
            
-            
-   
       
-            @include mobile-portrait-only {
-               display: block;
-               width: 100%;
-               
-            }
          }
 
    
       }
    }
    
-.input-nav {
-   background: $dark;
-   border-radius: 50px;
-   background-color: #3C3B3D;
-   border-radius: 50px;
-   margin-left: auto;
-   min-width: 248px;
+   .input-nav {
+      background: $dark;
+      border-radius: 50px;
+      background-color: #3C3B3D;
+      border-radius: 50px;
+      margin-left: auto;
+      min-width: 248px;
+      
 
-   @include mobile-portrait-only {
-      width: 100% ;
-   }
+      @include mobile-portrait-only {
+         display: block;
+         margin-left: 0;
+         margin-top: 18px;
+         width: 100%;
+
+        
+         
+
+      }
 
    &::placeholder {
 
@@ -115,15 +126,9 @@ header {
       line-height: 15.29px;
       text-transform: uppercase;
       color: #757575;
-
-     
-
-
    }
    
-   @include mobile-portrait-only {
-         margin-top: 18pх;
-   }
+   
 }
 }
 

@@ -29,13 +29,8 @@ border: 0;
       width: 100%;
       margin: auto;
      position: relative;
-
-
      
-         
-
-
-      @include mobile-portrait-only {
+     @include mobile-portrait-only {
          width: 100%;
          padding-right: 20px;
          padding-left: 20px;
@@ -117,12 +112,15 @@ border: 0;
          flex-wrap: wrap;
          width: 100%;
          max-width: 570px;
+         
 
 
          @include mobile-portrait-only {
+            display: flex;
+            flex-direction: column;
+
             
-            width: 100%;
-            margin-bottom: 24px;
+            
          }
 
    
@@ -144,6 +142,8 @@ border: 0;
             @include mobile-portrait-only {
                width: 100%;
                margin-bottom: 0px;
+               margin-right: 0;
+               margin-bottom: 24px;
             }
 
 
