@@ -128,7 +128,7 @@ header {
       header .header-nav {
         display: flex;
         flex-direction: column;
-        align-content: flex-start;
+        margin-bottom: 18px;
         align-items: flex-start;
         flex-wrap: wrap; } }
     header .header-nav li {
@@ -153,7 +153,6 @@ header {
       header .input-nav {
         display: block;
         margin-left: 0;
-        margin-top: 18px;
         width: 100%; } }
     header .input-nav::placeholder {
       min-width: 248px;
@@ -488,8 +487,7 @@ input {
     @media (max-width: 414px) {
       .section .section-inner h1 {
         font-size: 30px;
-        line-height: 45px;
-        padding-top: 78px; } }
+        line-height: 45px; } }
   .section .section-inner h2 {
     width: 100%;
     margin-bottom: 30px; }
@@ -727,7 +725,7 @@ header {
       header .header-nav {
         display: flex;
         flex-direction: column;
-        align-content: flex-start;
+        margin-bottom: 18px;
         align-items: flex-start;
         flex-wrap: wrap; } }
     header .header-nav li {
@@ -752,7 +750,6 @@ header {
       header .input-nav {
         display: block;
         margin-left: 0;
-        margin-top: 18px;
         width: 100%; } }
     header .input-nav::placeholder {
       min-width: 248px;

@@ -61,11 +61,15 @@ header {
       @include mobile-portrait-only {
          display: flex;
          flex-direction: column;
-         align-content: flex-start;
+      
+         margin-bottom: 18px;
          align-items: flex-start;
          flex-wrap: wrap;
+
          
       }
+
+   
 
 
 
@@ -107,7 +111,7 @@ header {
       @include mobile-portrait-only {
          display: block;
          margin-left: 0;
-         margin-top: 18px;
+         
          width: 100%;
 
         
