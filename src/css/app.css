@@ -1,3 +1,6 @@
+body {
+  background: #08020D; }
+
 h1, h2, h3, h4 {
   font-family: Roboto,'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -595,7 +598,8 @@ input {
       border-radius: 32px;
       font-size: 12.8px;
       line-height: 19.2px;
-      text-transform: none; }
+      text-transform: none;
+      padding: 16px 40px; }
   .section-app .mobile-item .mobile-img {
     width: 50%; }
     @media (max-width: 414px) {
