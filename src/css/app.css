@@ -40,7 +40,7 @@ a {
   text-decoration: none;
   font-weight: 400; }
 
-.section-artists .input-button, .section .section-inner .form .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item .btn, .section-news .news-footer a {
+.section-artists .container .input-button, .section .section-inner .form .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item .btn, .section-news .news-footer a {
   width: 100%;
   padding: 20px 30px;
   border-radius: 5px;
@@ -328,11 +328,103 @@ header {
           .section-similar .similar-inner .similar-item img {
             height: 137px;
             width: 137px; } }
-      .section-similar .similar-inner .similar-item h4 {
-        text-transform: capitalize; }
+      .section-similar .similar-inner .similar-item h3 {
+        text-transform: capitalize;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 700; }
       @media (max-width: 414px) {
         .section-similar .similar-inner .similar-item p {
           text-align: center; } }
+
+body {
+  background: #08020D; }
+
+h1, h2, h3, h4 {
+  font-family: Roboto,'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+h1, h2, h4 {
+  font-weight: 700; }
+
+h3 {
+  font-weight: 400; }
+
+h1 {
+  font-size: 60px;
+  line-height: 90px; }
+
+h2 {
+  font-size: 38px;
+  line-height: 57px; }
+
+h3 {
+  font-size: 24px;
+  line-height: 45px; }
+
+h4 {
+  font-size: 18px;
+  line-height: 27px; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 400; }
+
+a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400; }
+
+.section-artists .container .input-button, .section .section-inner .form .input-button, .section-app .mobile-item .mobile-text a, .section-prising .section-prising-inner .pricing-item .btn, .section-news .news-footer a {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none; }
+
+header .header-nav, .section-tracks .section-inner-track, .section-tracks .popular-track, .section-artists .form, .section .section-inner .form, .section-app .mobile-item, .footer-section .container {
+  display: flex;
+  justify-content: space-between; }
+
+.section-discography .discography-inner, .section-similar .similar-inner {
+  display: flex;
+  justify-content: flex-start; }
+
+.section-app, .section-prising {
+  text-align: center;
+  background-color: #08020d;
+  width: 100%;
+  height: auto; }
+
+.section-discography .discography-inner .discography-item p, .section-similar .similar-inner .similar-item p, .section .section-inner p, .footer-section .footer-inner .footer-link, .footer-contacts .contacts-link, .section-news p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: 400; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.section {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+
+.section-prising .section-prising-inner .pricing-item small {
+  font-size: 12.8px;
+  line-height: 19.2px; }
+
+.section-background {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover; }
 
 .section-artists {
   background-image: url("../images/Morten Harket.png");
@@ -348,6 +440,24 @@ header {
         width: 100%;
         padding-right: 20px;
         padding-left: 20px; } }
+    .section-artists .container .input-button {
+      width: 200px;
+      background-color: #5328A1;
+      border: none;
+      font-family: 'Arial';
+      font-size: 12.8px;
+      padding: 20px 30px;
+      margin-right: 1.5rem;
+      display: inline-block; }
+      @media (max-width: 414px) {
+        .section-artists .container .input-button {
+          margin-bottom: 24px;
+          margin-right: 0; }
+          .section-artists .container .input-button:last-child {
+            margin-bottom: 0; } }
+      .section-artists .container .input-button:last-child {
+        margin-right: 0px;
+        background-color: #95390C; }
   @media (min-width: 1240px) {
     .section-artists .container {
       max-width: 1200px; } }
@@ -382,21 +492,6 @@ header {
       background: none; }
       .section-artists .form .input:last-child {
         margin-right: 0; }
-  .section-artists .input-button {
-    width: 200px;
-    background-color: #5328A1;
-    border: none;
-    font-family: 'Arial';
-    font-size: 12.8px;
-    padding: 20px 30px;
-    margin-right: 1.5rem;
-    display: inline-block; }
-    @media (max-width: 414px) {
-      .section-artists .input-button {
-        margin-bottom: 24px; } }
-    .section-artists .input-button:last-child {
-      margin-right: 0px;
-      background-color: #95390C; }
 
 .mr-24 {
   margin-right: 24px; }

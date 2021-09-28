@@ -5,7 +5,7 @@
 @import "blocks/discography";
 @import "blocks/similar";
 @import "mixins";
-
+@import "general";
 
 
 .section-artists {
@@ -27,6 +27,45 @@
             padding-left: 20px;
            
          }
+
+
+
+         .input-button {
+            @extend %btn;
+            width: 200px;
+            background-color: $purple;
+            border: none;
+            font-family: 'Arial';
+            font-size: 12.8px;
+            padding: 20px 30px;
+            margin-right: 1.5rem;
+            display: inline-block;
+            
+            @include mobile-portrait-only {
+               margin-bottom: 24px;
+               margin-right: 0;
+
+               &:last-child {
+
+                  margin-bottom: 0;
+               }
+
+
+               }
+      
+            
+   
+            &:last-child {
+               margin-right: 0px;
+               background-color: $red;
+            }
+         }
+   
+
+
+
+
+
       }
 
 
@@ -89,31 +128,7 @@
       
       
 
-      .input-button {
-         @extend %btn;
-         width: 200px;
-         background-color: $purple;
-         border: none;
-         font-family: 'Arial';
-         font-size: 12.8px;
-         padding: 20px 30px;
-         margin-right: 1.5rem;
-         display: inline-block;
-
-         @include mobile-portrait-only {
-
-
-            margin-bottom: 24px;
-            }
-   
-         
-
-         &:last-child {
-            margin-right: 0px;
-            background-color: $red;
-         }
-      }
-
+      
 
       
 }
