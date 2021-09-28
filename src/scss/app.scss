@@ -22,6 +22,12 @@ border: 0;
 
 .section {
    @extend %section-padding-200;
+
+   @include mobile-portrait-only {
+      padding-top: 250px;
+      padding-bottom: 200px;
+   
+   }
   
 
    .container {

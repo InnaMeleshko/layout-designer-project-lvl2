@@ -99,7 +99,6 @@ header {
   width: 100%; }
   @media (max-width: 414px) {
     header {
-      margin-bottom: 17px;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -145,15 +144,11 @@ header {
   header .input-nav {
     background: #3C3B3D;
     border-radius: 50px;
-    background-color: #3C3B3D;
-    border-radius: 50px;
     margin-left: auto;
     min-width: 248px; }
     @media (max-width: 414px) {
       header .input-nav {
-        display: block;
-        margin-left: 0;
-        width: 100%; } }
+        margin-left: 0; } }
     header .input-nav::placeholder {
       min-width: 248px;
       padding-left: 10px;
@@ -464,6 +459,10 @@ input {
   margin: 0;
   border: 0; }
 
+@media (max-width: 414px) {
+  .section {
+    padding-top: 250px;
+    padding-bottom: 200px; } }
 .section .container {
   height: auto;
   width: 100%;
@@ -696,7 +695,6 @@ header {
   width: 100%; }
   @media (max-width: 414px) {
     header {
-      margin-bottom: 17px;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -742,15 +740,11 @@ header {
   header .input-nav {
     background: #3C3B3D;
     border-radius: 50px;
-    background-color: #3C3B3D;
-    border-radius: 50px;
     margin-left: auto;
     min-width: 248px; }
     @media (max-width: 414px) {
       header .input-nav {
-        display: block;
-        margin-left: 0;
-        width: 100%; } }
+        margin-left: 0; } }
     header .input-nav::placeholder {
       min-width: 248px;
       padding-left: 10px;

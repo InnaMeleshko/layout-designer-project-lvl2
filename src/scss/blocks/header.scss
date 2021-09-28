@@ -19,7 +19,7 @@ header {
    width: 100%;
 
    @include mobile-portrait-only {
-      margin-bottom: 17px;
+      
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -102,17 +102,15 @@ header {
    .input-nav {
       background: $dark;
       border-radius: 50px;
-      background-color: #3C3B3D;
-      border-radius: 50px;
       margin-left: auto;
       min-width: 248px;
       
 
       @include mobile-portrait-only {
-         display: block;
+         
          margin-left: 0;
          
-         width: 100%;
+        
 
         
          
