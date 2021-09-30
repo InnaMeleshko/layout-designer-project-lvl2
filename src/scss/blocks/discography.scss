@@ -29,7 +29,7 @@
    }
    
 
-   h3 {
+   h2 {
       margin-bottom: 57px;
       font-size: 38px;
       line-height: 57px;
@@ -80,8 +80,13 @@
             }
 
 
-            h4 {
+            h3 {
                text-transform: capitalize;
+               font-weight: bold;
+               font-size: 18px;
+               line-height: 27px;
+
+
                @include mobile-portrait-only {
                   text-align: left;
                }

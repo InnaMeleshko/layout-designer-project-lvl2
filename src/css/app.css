@@ -9,9 +9,6 @@ h1, h2, h3, h4 {
 h1, h2, h4 {
   font-weight: 700; }
 
-h3 {
-  font-weight: 400; }
-
 h1 {
   font-size: 60px;
   line-height: 90px; }
@@ -178,13 +175,13 @@ header {
   @media (min-width: 1240px) {
     .section-tracks .container {
       max-width: 1200px; } }
-  .section-tracks h3 {
+  .section-tracks h2 {
     margin-bottom: 57px;
     font-size: 38px;
     line-height: 57px;
     font-weight: 700; }
     @media (max-width: 414px) {
-      .section-tracks h3 {
+      .section-tracks h2 {
         font-size: 18px;
         line-height: 27px;
         text-align: left; } }
@@ -210,6 +207,11 @@ header {
         margin: 0px 0px 25px 0px; } }
     .section-tracks .popular-track .track-info {
       text-align: left; }
+      .section-tracks .popular-track .track-info h3 {
+        font-weight: 700px;
+        font-size: 12.8px;
+        line-height: 19.2px;
+        color: #FFFFFF; }
     .section-tracks .popular-track span {
       margin-left: auto;
       color: #FFFFFF;
@@ -247,13 +249,13 @@ header {
   @media (min-width: 1240px) {
     .section-discography .container {
       max-width: 1200px; } }
-  .section-discography h3 {
+  .section-discography h2 {
     margin-bottom: 57px;
     font-size: 38px;
     line-height: 57px;
     font-weight: 700; }
     @media (max-width: 414px) {
-      .section-discography h3 {
+      .section-discography h2 {
         font-size: 18px;
         line-height: 27px;
         text-align: left; } }
@@ -274,10 +276,13 @@ header {
             width: 137px;
             height: 137px;
             margin-right: 50px; } }
-      .section-discography .discography-inner .discography-item h4 {
-        text-transform: capitalize; }
+      .section-discography .discography-inner .discography-item h3 {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px; }
         @media (max-width: 414px) {
-          .section-discography .discography-inner .discography-item h4 {
+          .section-discography .discography-inner .discography-item h3 {
             text-align: left; } }
       .section-discography .discography-inner .discography-item p {
         text-transform: capitalize; }
@@ -353,9 +358,6 @@ h1, h2, h3, h4 {
 
 h1, h2, h4 {
   font-weight: 700; }
-
-h3 {
-  font-weight: 400; }
 
 h1 {
   font-size: 60px;
