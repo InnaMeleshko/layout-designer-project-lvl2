@@ -72,7 +72,7 @@
                @include mobile-portrait-only {
                   width: 137px;
                   height: 137px;
-                  margin-right: 50px;
+                
                }
 
 
@@ -101,8 +101,8 @@
             }
 
          @include mobile-portrait-only {
-              width: 50%;
-              margin-right: 0px;
+              
+              margin-right: auto;
             }
 
 

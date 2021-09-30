@@ -48,8 +48,8 @@
          margin-right: 50px;
 
          @include mobile-portrait-only {
-            margin-right: 0px;
-            width: 50%;
+            margin-right: auto;
+            
          }
                
             img {
