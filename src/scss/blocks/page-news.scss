@@ -51,7 +51,7 @@
 
       h3 {
          font-size: 30px;
-        
+         line-height: 45px;
          margin-bottom: 30px;
          text-transform: capitalize;
          font-weight: 400;
@@ -149,8 +149,6 @@
             @extend %btn;
             background: none;
             border: 1px solid $white;
-            
-           
             padding: 16px 30px;
             font-size: 12px;
             line-height: 19px;
@@ -204,7 +202,6 @@
 
       h3 {
          font-size: 30px;
-        
          margin-bottom: 30px;
          text-transform: capitalize;
          font-weight: 400;
