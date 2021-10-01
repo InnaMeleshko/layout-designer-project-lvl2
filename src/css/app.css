@@ -274,8 +274,8 @@ header {
       .section-discography .discography-inner .discography-item h3 {
         text-transform: capitalize;
         font-weight: bold;
-        font-size: 24px;
-        line-height: 36px; }
+        font-size: 18px;
+        line-height: 27px; }
         @media (max-width: 414px) {
           .section-discography .discography-inner .discography-item h3 {
             text-align: left; } }
@@ -978,6 +978,7 @@ header {
       .section-prising .section-prising-inner .pricing-item h3 {
         padding-bottom: 200px;
         padding-top: 24px;
+        font-size: 24px;
         line-height: 36px;
         font-weight: normal; }
         @media (max-width: 414px) {
