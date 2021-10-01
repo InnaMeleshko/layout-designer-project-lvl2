@@ -353,8 +353,9 @@ border: 0;
       }
       
       
-      img {
-      padding-right: 24px;
+      
+
+
       }
 
       h2 {
@@ -381,13 +382,18 @@ border: 0;
          text-decoration: none;
          color: $gray;
 
+
+         img {
+            padding-right: 24px;
+            display: inline-block;
+      
+           
+
     
    
          }
 
-         .footer-link-img {
-            display: inline-block;
-         }
+         
 
       
 

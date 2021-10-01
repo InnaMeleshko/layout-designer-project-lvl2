@@ -56,7 +56,7 @@ header .header-nav, .section-tracks .section-inner-track, .section-tracks .popul
   width: 100%;
   height: auto; }
 
-.section-discography .discography-inner .discography-item p, .section-similar .similar-inner .similar-item p, .section .section-inner p, .footer-section .footer-inner .footer-link, .footer-contacts .contacts-link, .section-news p {
+.section-discography .discography-inner .discography-item p, .section-similar .similar-inner .similar-item p, .section .section-inner p, .footer-section .footer-link, .footer-contacts .contacts-link, .section-news p {
   font-size: 16px;
   line-height: 24px;
   font-family: 'Roboto', serif;
@@ -274,8 +274,8 @@ header {
       .section-discography .discography-inner .discography-item h3 {
         text-transform: capitalize;
         font-weight: bold;
-        font-size: 18px;
-        line-height: 27px; }
+        font-size: 24px;
+        line-height: 36px; }
         @media (max-width: 414px) {
           .section-discography .discography-inner .discography-item h3 {
             text-align: left; } }
@@ -399,7 +399,7 @@ header .header-nav, .section-tracks .section-inner-track, .section-tracks .popul
   width: 100%;
   height: auto; }
 
-.section-discography .discography-inner .discography-item p, .section-similar .similar-inner .similar-item p, .section .section-inner p, .footer-section .footer-inner .footer-link, .footer-contacts .contacts-link, .section-news p {
+.section-discography .discography-inner .discography-item p, .section-similar .similar-inner .similar-item p, .section .section-inner p, .footer-section .footer-link, .footer-contacts .contacts-link, .section-news p {
   font-size: 16px;
   line-height: 24px;
   font-family: 'Roboto', serif;
@@ -422,6 +422,69 @@ ul {
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover; }
+
+.mr-24 {
+  margin-right: 24px; }
+
+.mb-24 {
+  margin-bottom: 24px; }
+
+.mr-16 {
+  margin-right: 16px; }
+
+.pt-16 {
+  padding-top: 16px; }
+
+.pb-16 {
+  padding-bottom: 16px; }
+
+.pl-40 {
+  padding-left: 40px; }
+
+.pr-40 {
+  padding-right: 40px; }
+
+.ml-16 {
+  margin-left: 16px; }
+
+.mr-40 {
+  margin-right: 40px; }
+
+.mt-40 {
+  margin-top: 40px; }
+
+.mr-50 {
+  margin-right: 50px; }
+
+.ml-50 {
+  margin-left: 50px; }
+
+.pt-100 {
+  padding-top: 100px; }
+
+.pb-100 {
+  padding-bottom: 100px; }
+
+.pt-200 {
+  padding-top: 200px; }
+
+.pb-200 {
+  padding-bottom: 200px; }
+
+.orange {
+  color: #F89202; }
+
+.pr0 {
+  padding-right: 0; }
+
+.bigrem {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #FFFFFF; }
+
+.smallrem {
+  padding-bottom: 2rem;
+  padding-top: 2rem; }
 
 .section-artists {
   background-image: url("../images/Morten Harket.png");
@@ -468,9 +531,7 @@ ul {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 48px; }
-  .section-artists button {
-    align-items: flex-start; }
-  .section-artists img {
+  .section-artists button img {
     width: 20px;
     height: 17.79px;
     margin-right: 16px;
@@ -542,6 +603,18 @@ ul {
 
 .orange {
   color: #F89202; }
+
+.pr0 {
+  padding-right: 0; }
+
+.bigrem {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #FFFFFF; }
+
+.smallrem {
+  padding-bottom: 2rem;
+  padding-top: 2rem; }
 
 * {
   margin: 0;
@@ -735,23 +808,22 @@ input {
       .footer-section .footer-inner:last-child {
         padding-bottom: 0px;
         display: inline-block; } }
-    .footer-section .footer-inner img {
-      padding-right: 24px; }
-    .footer-section .footer-inner h2 {
-      padding-bottom: 15px;
-      color: #FFFFFF;
-      font-size: 18px;
-      line-height: 27px; }
-      @media (max-width: 414px) {
-        .footer-section .footer-inner h2 {
-          padding-bottom: 16px; } }
-    .footer-section .footer-inner li {
-      list-style-type: none; }
-    .footer-section .footer-inner .footer-link {
-      display: inline-block;
-      text-decoration: none;
-      color: #E0E0E0; }
-    .footer-section .footer-inner .footer-link-img {
+  .footer-section h2 {
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 27px; }
+    @media (max-width: 414px) {
+      .footer-section h2 {
+        padding-bottom: 16px; } }
+  .footer-section li {
+    list-style-type: none; }
+  .footer-section .footer-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #E0E0E0; }
+    .footer-section .footer-link img {
+      padding-right: 24px;
       display: inline-block; }
 
 .footer-contacts {
@@ -1056,6 +1128,7 @@ header {
         flex-wrap: wrap; } }
     .section-news .news-item-second h3 {
       font-size: 30px;
+      line-height: 45px;
       margin-bottom: 30px;
       text-transform: capitalize;
       font-weight: 400; }
