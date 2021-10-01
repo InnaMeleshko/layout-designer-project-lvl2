@@ -468,7 +468,9 @@ ul {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 48px; }
-  .section-artists button img {
+  .section-artists button {
+    align-items: flex-start; }
+  .section-artists img {
     width: 20px;
     height: 17.79px;
     margin-right: 16px;
