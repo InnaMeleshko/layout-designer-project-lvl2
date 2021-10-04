@@ -1109,7 +1109,8 @@ header {
       font-size: 12px;
       line-height: 19px;
       color: #cacaca;
-      display: table-cell; }
+      display: table-cell;
+      outline: none; }
       @media (max-width: 414px) {
         .section-news .news-footer a {
           font-size: 12.8px;
