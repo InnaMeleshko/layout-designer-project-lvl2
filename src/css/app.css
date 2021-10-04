@@ -141,7 +141,8 @@ header {
     min-width: 248px; }
     @media (max-width: 414px) {
       header .input-nav {
-        margin-left: 0; } }
+        margin-left: 0;
+        height: 25px; } }
     header .input-nav::placeholder {
       min-width: 248px;
       padding-left: 10px;
@@ -910,7 +911,8 @@ header {
     min-width: 248px; }
     @media (max-width: 414px) {
       header .input-nav {
-        margin-left: 0; } }
+        margin-left: 0;
+        height: 25px; } }
     header .input-nav::placeholder {
       min-width: 248px;
       padding-left: 10px;
@@ -924,7 +926,6 @@ header {
 
 /*Page-prising*/
 .section-prising {
-  padding-top: 100px;
   margin: 0 auto; }
   .section-prising .container {
     height: auto;
