@@ -463,6 +463,9 @@ ul {
 .mb-100 {
   margin-bottom: 100px; }
 
+.mt-100 {
+  margin-top: 100px; }
+
 .pt-100 {
   padding-top: 100px; }
 
@@ -595,6 +598,9 @@ ul {
 
 .mb-100 {
   margin-bottom: 100px; }
+
+.mt-100 {
+  margin-top: 100px; }
 
 .pt-100 {
   padding-top: 100px; }
@@ -1041,7 +1047,9 @@ header {
     height: auto;
     width: 100%;
     margin: auto;
-    position: relative; }
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px; }
     @media (max-width: 414px) {
       .section-news .container {
         width: 100%;
