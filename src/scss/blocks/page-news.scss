@@ -7,13 +7,15 @@
    width: 100%;
    height: auto;
    text-align: center;
-   padding-left: 20px;
-   padding-right: 20px;
+   
+  
    
    .container {
       height: auto;
-      margin: auto;
       position: relative;
+      margin: auto;
+      padding-right: 20px;
+      padding-left: 20px;
       
 
       @include mobile-portrait-only {
