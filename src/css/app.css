@@ -1042,14 +1042,13 @@ header {
   background-color: #08020d;
   width: 100%;
   height: auto;
-  text-align: center; }
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px; }
   .section-news .container {
     height: auto;
-    width: 100%;
     margin: auto;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px; }
+    position: relative; }
     @media (max-width: 414px) {
       .section-news .container {
         width: 100%;
