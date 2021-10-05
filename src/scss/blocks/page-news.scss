@@ -46,6 +46,7 @@
       display: flex;
       justify-content: space-between;
       text-align: left;
+      margin-bottom: 65px;
       
       @include mobile-portrait-only {
          flex-wrap: wrap;
@@ -83,8 +84,8 @@
          .img-left {
             height: auto;
             width: auto;
-            margin-right: 50px;
-            margin-bottom: 65px;
+            
+           
             
 
 
@@ -232,7 +233,7 @@
          .img-right {
             height: auto;
             width: auto;
-            margin-left: 50px;
+           
             
          
 
