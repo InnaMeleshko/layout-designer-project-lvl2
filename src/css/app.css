@@ -1049,7 +1049,7 @@ header {
         padding-left: 20px; } }
   @media (min-width: 1240px) {
     .section-news .container {
-      max-width: 1200px; } }
+      width: 1200px; } }
   .section-news h2 {
     margin-bottom: 50px; }
     @media (max-width: 414px) {
@@ -1119,12 +1119,11 @@ header {
   .section-news .news-author {
     display: flex;
     justify-content: start;
-    width: 100%; }
+    margin-bottom: 48px; }
     .section-news .news-author img {
       width: 19px;
       height: 19px; }
     .section-news .news-author p {
-      margin-bottom: 48px;
       text-transform: uppercase; }
   .section-news .news-item-second {
     display: flex;

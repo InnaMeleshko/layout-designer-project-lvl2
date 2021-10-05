@@ -24,7 +24,7 @@
 
    @media (min-width: 1240px){
       .container {
-      max-width: 1200px;
+      width: 1200px;
       }
    }
    
@@ -174,7 +174,7 @@
       .news-author {
          display: flex;
          justify-content: start;
-         width: 100%;
+         margin-bottom: 48px;
         
 
          img {
@@ -183,9 +183,8 @@
          }
 
          p {
-            margin-bottom: 48px;
             text-transform: uppercase;
-            }
+         }
       }
 
       .news-item-second {
