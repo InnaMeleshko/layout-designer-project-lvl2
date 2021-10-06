@@ -131,11 +131,7 @@
          }
       
 
-      p {
-         @extend %text-style;
-        
-        
-      }
+     
 
 
 
@@ -156,7 +152,7 @@
             border: 1px solid $white;
             padding: 16px 30px;
             font-size: 12px;
-            line-height: 19px;
+            line-height: 19.2px;
             color: $darkgray;
             display: table-cell;
             outline: none;
@@ -226,6 +222,7 @@
             @include mobile-portrait-only {
                flex-wrap: wrap;
                order: 1;
+               
       
             }
 
