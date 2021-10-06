@@ -1190,8 +1190,8 @@ h2 {
     text-decoration: none;
     width: fit-content;
     padding: 16px 30px;
-    color: #E0E0E0;
-    border: 1px solid #E0E0E0;
+    color: #cacaca;
+    border: 1px solid #cacaca;
     border-radius: 5px;
     cursor: pointer; }
     @media (max-width: 414px) {
