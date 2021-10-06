@@ -5,17 +5,16 @@
 .section-news {
    background-color: $black;
    width: 100%;
-   height: auto;
+   
    text-align: center;
    
   
    
    .container {
-      height: auto;
+      
       position: relative;
-      margin: auto;
-      padding-right: 20px;
-      padding-left: 20px;
+      
+      
       
 
       @include mobile-portrait-only {
@@ -26,9 +25,10 @@
       }
    }
 
-   @media (min-width: 1240px){
+   @media (max-width: 1239px){
       .container {
-      width: 1240px;
+      width: 1200px;
+     
      
       }
    }

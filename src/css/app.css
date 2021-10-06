@@ -508,6 +508,11 @@ ul {
   font-style: normal;
   font-weight: 400; }
 
+.page-news {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 100px 20px 0; }
+
 .section-artists {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
@@ -658,6 +663,11 @@ ul {
   font-family: 'Roboto', serif;
   font-style: normal;
   font-weight: 400; }
+
+.page-news {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 100px 20px 0; }
 
 * {
   margin: 0;
@@ -1071,22 +1081,17 @@ header {
 .section-news {
   background-color: #08020d;
   width: 100%;
-  height: auto;
   text-align: center; }
   .section-news .container {
-    height: auto;
-    position: relative;
-    margin: auto;
-    padding-right: 20px;
-    padding-left: 20px; }
+    position: relative; }
     @media (max-width: 414px) {
       .section-news .container {
         width: 100%;
         padding-right: 20px;
         padding-left: 20px; } }
-  @media (min-width: 1240px) {
+  @media (max-width: 1239px) {
     .section-news .container {
-      width: 1240px; } }
+      width: 1200px; } }
   .section-news h2 {
     margin-bottom: 50px; }
     @media (max-width: 414px) {
