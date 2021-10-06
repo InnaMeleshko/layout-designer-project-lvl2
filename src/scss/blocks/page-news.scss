@@ -2,36 +2,6 @@
 
 /*News*/
 
-.section-news {
-   background-color: $black;
-   width: 100%;
-   
-   text-align: center;
-   
-  
-   
-   .container {
-      
-      position: relative;
-      
-      
-      
-
-      @include mobile-portrait-only {
-         width: 100%;
-         padding-right: 20px;
-         padding-left: 20px;
-        
-      }
-   }
-
-   @media (max-width: 1239px){
-      .container {
-      width: 1200px;
-     
-     
-      }
-   }
    
    h2 {
       margin-bottom: 50px;
@@ -247,4 +217,3 @@
 
 
       }
-}
