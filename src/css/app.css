@@ -82,16 +82,16 @@ ul {
   background-position: center;
   background-size: cover; }
 
-.container {
+.content {
   width: 1200px;
   height: 100%;
   margin: 0 auto; }
   @media screen and (max-width: 1250px) {
-    .container {
+    .content {
       width: unset;
       max-width: 1200px; } }
   @media screen and (max-width: 600px) {
-    .container {
+    .content {
       width: 100%; } }
 
 .wrapper {
@@ -451,16 +451,16 @@ ul {
   background-position: center;
   background-size: cover; }
 
-.container {
+.content {
   width: 1200px;
   height: 100%;
   margin: 0 auto; }
   @media screen and (max-width: 1250px) {
-    .container {
+    .content {
       width: unset;
       max-width: 1200px; } }
   @media screen and (max-width: 600px) {
-    .container {
+    .content {
       width: 100%; } }
 
 .wrapper {
