@@ -18,7 +18,7 @@
       display: flex;
       justify-content: space-between;
       text-align: left;
-      margin-bottom: 65px;
+      margin-bottom: 64px;
       
       @include mobile-portrait-only {
          flex-wrap: wrap;
@@ -118,16 +118,20 @@
          
 
          a {
+            display: block;
+            font-weight: normal;
+            font-size: 12.8px;
+            line-height: 150%;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
 
-            @extend %btn;
-            background: none;
-            border: 1px solid $white;
+            width: fit-content;
             padding: 16px 30px;
-            font-size: 12px;
-            line-height: 19.2px;
-            color: $darkgray;
-            display: table-cell;
-            outline: none;
+            color: $gray;
+            border: 1px solid $gray;
+            border-radius: 5px;
+            cursor: pointer;
 
             
 
