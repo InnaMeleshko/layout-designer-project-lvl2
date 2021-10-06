@@ -5,7 +5,8 @@
 
    
    h2 {
-      margin-bottom: 50px;
+      margin-bottom: 48px;
+      text-align: center;
 
       @include mobile-portrait-only {
          font-size: 18px;
@@ -54,8 +55,8 @@
          
          
          .img-left {
-            height: auto;
-            width: auto;
+            width: 575px;
+            height: 286px;
             
            
             
@@ -203,8 +204,8 @@
 
          }
          .img-right {
-            height: auto;
-            width: auto;
+            width: 575px;
+            height: 286px;
            
             
          
