@@ -390,6 +390,7 @@ border: 0;
 
          @include mobile-portrait-only {
             margin-bottom: 30px;
+            width: 100%;
          }
        
          h2 {
