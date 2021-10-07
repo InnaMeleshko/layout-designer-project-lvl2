@@ -208,14 +208,16 @@
             width: 575px;
             height: 286px;
            
-            
-         
-
             @include mobile-portrait-only {
                width: 100%;
+               height: auto;
+               margin-bottom: 50px;
                margin-left: 0px;
-               margin-top: 64px;
-               order: 2;
+               
+               
             }
+         
+
+           
          }
       }
