@@ -1224,6 +1224,31 @@ input {
     .footer-section .footer-contacts,
     .footer-section .footer-top {
       padding-left: 20px; } }
+@media screen and (max-width: 1250px) and (max-width: 600px) {
+  .footer-section .footer {
+    padding: 0 20px; }
+  .footer-section .footer-top {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-bottom: 44px;
+    padding-left: 0; }
+    .footer-section .footer-top .footer-links:nth-child(4) {
+      margin-top: 4px; }
+  .footer-section .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0%; }
+  .footer-section .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    padding-left: 0; }
+    .footer-section .footer-bottom a {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 16px; } }
+
   .footer-section .footer-top {
     display: flex;
     flex-direction: row;
