@@ -1,102 +1,1133 @@
-/*
-Error: Undefined mixin 'mobile-portrait-only'.
-        on line 25 of src/scss/artists.scss, in `mobile-portrait-only'
-        from line 25 of src/scss/artists.scss
-        from line 3 of src/scss/app.scss
+* {
+  box-sizing: border-box; }
 
-20:   height: 100%;
-21:   background-image: url("../images/banner.png");
-22: }
-23: 
-24: .main-section .content > div {
-25:   p {
-26:     margin-top: 32px;
-27:     color: $white;
-28:     font-size: 16px;
-29:   }
-30: 
+html {
+  color: #e0e0e0;
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  line-height: 1.5;
+  background-color: #08020d; }
 
-Backtrace:
-src/scss/artists.scss:25:in `mobile-portrait-only'
-src/scss/artists.scss:25
-src/scss/app.scss:3
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `block in with_mixin'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `with_mixin'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'mobile-portrait-only'.\A         on line 25 of src/scss/artists.scss, in `mobile-portrait-only'\A         from line 25 of src/scss/artists.scss\A         from line 3 of src/scss/app.scss\A \A 20:   height: 100%;\A 21:   background-image: url(\"../images/banner.png\");\A 22: }\A 23: \A 24: .main-section .content > div {\A 25:   p {\A 26:     margin-top: 32px;\A 27:     color: $white;\A 28:     font-size: 16px;\A 29:   }\A 30: "; }
+body {
+  width: 100%;
+  margin: 0; }
+
+.content {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto; }
+  @media screen and (max-width: 1250px) {
+    .content {
+      width: unset;
+      max-width: 1200px; } }
+  @media screen and (max-width: 600px) {
+    .content {
+      width: 100%; } }
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 100px; }
+  @media screen and (max-width: 1250px) {
+    .wrapper {
+      width: unset;
+      max-width: 1240px;
+      padding-right: 20px;
+      padding-left: 20px; } }
+
+.bg-img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0; }
+
+/*Header*/
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 90px; }
+
+.search-input-style {
+  min-width: 248px;
+  height: 25px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  background: #3c3b3d;
+  border: 0;
+  border-radius: 50px; }
+
+.nav-style {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 120px; }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  color: #cacaca;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.nav-list {
+  display: flex;
+  list-style-type: none; }
+  .nav-list li {
+    padding-left: 0; }
+    .nav-list li a:hover {
+      color: #fff; }
+
+@media screen and (max-width: 1250px) {
+  .logo {
+    margin-right: 24px; }
+
+  .nav-style {
+    flex-wrap: wrap;
+    padding: 0 7%; }
+    .nav-style .align-item-center {
+      flex-wrap: wrap; }
+
+  .nav-list {
+    padding: 0; } }
+@media screen and (max-width: 600px) {
+  .nav-style {
+    top: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px; }
+    .nav-style .align-item-center {
+      flex-direction: column;
+      align-items: inherit; }
+
+  .nav-list {
+    flex-direction: column;
+    margin: 17px 0;
+    padding: 0; }
+    .nav-list li {
+      margin-right: 0; }
+      .nav-list li a {
+        width: fit-content;
+        margin-right: 0;
+        margin-bottom: 1px;
+        text-align: start; }
+
+  .search-input-style {
+    width: 100%; } }
+.track-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 50px; }
+
+.popular-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding-right: 50px; }
+
+@media screen and (max-width: 600px) {
+  .track-list {
+    padding-top: 48px; }
+
+  .track-list .popular-track:nth-child(6) {
+    margin-bottom: 0; }
+
+  .popular-track {
+    width: 100%;
+    margin-bottom: 25px;
+    padding-right: 0; } }
+.discography-list,
+.similar-artist-list {
+  display: flex;
+  flex-wrap: wrap; }
+
+.discography-item,
+.similar-item {
+  margin-right: 48px; }
+  .discography-item img,
+  .similar-item img {
+    width: 250px;
+    height: 250px; }
+
+.discography-info,
+.similar-info {
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+.similar-item {
+  margin-bottom: 25px; }
+
+@media screen and (max-width: 600px) {
+  .discography-list,
+  .similar-artist-list {
+    justify-content: space-between; }
+
+  .similar-item,
+  .discography-item {
+    max-width: 137px; }
+    .similar-item img,
+    .discography-item img {
+      width: 137px;
+      height: 137px; }
+
+  .discography-info,
+  .similar-info {
+    margin-top: 11px; } }
+.discography-list,
+.similar-artist-list {
+  display: flex;
+  flex-wrap: wrap; }
+
+.discography-item,
+.similar-item {
+  margin-right: 48px; }
+  .discography-item img,
+  .similar-item img {
+    width: 250px;
+    height: 250px; }
+
+.discography-info,
+.similar-info {
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+.similar-item {
+  margin-bottom: 25px; }
+
+@media screen and (max-width: 600px) {
+  .discography-list,
+  .similar-artist-list {
+    justify-content: space-between; }
+
+  .similar-item,
+  .discography-item {
+    max-width: 137px; }
+    .similar-item img,
+    .discography-item img {
+      width: 137px;
+      height: 137px; }
+
+  .discography-info,
+  .similar-info {
+    margin-top: 11px; } }
+* {
+  box-sizing: border-box; }
+
+html {
+  color: #e0e0e0;
+  font-size: 18px;
+  font-family: "Roboto-Regular", sans-serif;
+  line-height: 1.5;
+  background-color: #08020d; }
+
+body {
+  width: 100%;
+  margin: 0; }
+
+.content {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto; }
+  @media screen and (max-width: 1250px) {
+    .content {
+      width: unset;
+      max-width: 1200px; } }
+  @media screen and (max-width: 600px) {
+    .content {
+      width: 100%; } }
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 100px; }
+  @media screen and (max-width: 1250px) {
+    .wrapper {
+      width: unset;
+      max-width: 1240px;
+      padding-right: 20px;
+      padding-left: 20px; } }
+
+.bg-img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0; }
+
+.align-item-center {
+  display: flex;
+  align-items: center; }
+
+.mt48 {
+  margin-top: 48px; }
+
+.mb64 {
+  margin-bottom: 64px; }
+
+.mb0 {
+  margin-bottom: 0; }
+
+.mt30 {
+  margin-top: 30px; }
+
+.mr50 {
+  margin-right: 50px; }
+
+.no-margin {
+  margin: 0; }
+
+.pr20 {
+  padding-right: 20px; }
+
+.pl20 {
+  padding-left: 20px; }
+
+.d-block {
+  display: block; }
+
+.w-fit-content {
+  width: fit-content; }
+
+.text-center {
+  text-align: center; }
+
+.mr24 {
+  margin-right: 24px; }
+
+.ml24 {
+  margin-left: 24px; }
+
+.mt14 {
+  margin-top: 14px; }
+
+.mt8 {
+  margin-top: 8px; }
+
+.mb16 {
+  margin-bottom: 16px; }
+
+.mb48 {
+  margin-bottom: 48px; }
+
+.mr16 {
+  margin-right: 16px; }
+
+.mb25 {
+  margin-bottom: 25px; }
+
+.orange {
+  color: #f89202; }
+
+.mr15 {
+  margin-right: 15px; }
+
+.mb75 {
+  margin-bottom: 75px; }
+
+.mb100 {
+  margin-bottom: 100px; }
+
+.mt75 {
+  margin-top: 75px; }
+
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf"); }
+h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    h1 {
+      color: #fff;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 45px;
+      text-transform: uppercase; } }
+
+h2 {
+  margin-top: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 57px;
+  text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    h2 {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 27px;
+      text-transform: uppercase; } }
+
+.font-30 {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: capitalize; }
+
+.font-24 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase; }
+
+.font-32 {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 150%; }
+
+.font13-3 {
+  color: #fff;
+  font-size: 13.3px;
+  line-height: 15px; }
+
+.font-18 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize; }
+
+.small-text {
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%; }
+
+.medium-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%; }
+
+.font-h3 {
+  margin: 0;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.green-btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #34c176;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer; }
+  @media screen and (max-width: 600px) {
+    .green-btn {
+      width: 100%; } }
+
+.checkout-btn {
+  padding: 20px 30px;
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.to-album-btn {
+  width: fit-content;
+  padding: 16px 30px;
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.submit-btn-style {
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.3rem;
+  padding-left: 20px;
+  color: #fff;
+  background: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 3px; }
+  .submit-btn-style::placeholder {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px; }
+  @media screen and (max-width: 600px) {
+    .submit-btn-style {
+      display: flex;
+      flex-direction: row;
+      width: 100%; } }
+
+.download-btn {
+  padding: 16px 40px;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #95390c;
+  border: 0;
+  border-radius: 32px;
+  cursor: pointer; }
+
+.artist-main-section {
+  background-image: url("../images/MortenHarket.png"); }
+
+.artist-main-section .content > div {
+  padding: 50px 0 63px 0; }
+
+.artisit-btns {
+  display: flex; }
+
+.purple-btn {
+  margin-right: 1.5rem;
+  background-color: #5328a1;
+  min-width: 200px;
+  padding: 20px 30px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px; }
+
+.red-btn {
+  background-color: #95390c;
+  min-width: 200px;
+  padding: 20px 30px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px; }
+
+@media screen and (max-width: 600px) {
+  .artist-main-section {
+    padding: 200px 20px; }
+
+  .artist-main-section .content > div {
+    padding-top: 25px;
+    padding-bottom: 30px; }
+    .artist-main-section .content > div p {
+      color: #fff;
+      font-size: 16px; }
+
+  .artisit-btns {
+    display: flex;
+    flex-direction: column; }
+
+  .purple-btn {
+    margin-bottom: 24px; }
+
+  .purple-btn,
+  .red-btn {
+    max-width: 200px; } }
+.align-item-center {
+  display: flex;
+  align-items: center; }
+
+.mt48 {
+  margin-top: 48px; }
+
+.mb64 {
+  margin-bottom: 64px; }
+
+.mb0 {
+  margin-bottom: 0; }
+
+.mt30 {
+  margin-top: 30px; }
+
+.mr50 {
+  margin-right: 50px; }
+
+.no-margin {
+  margin: 0; }
+
+.pr20 {
+  padding-right: 20px; }
+
+.pl20 {
+  padding-left: 20px; }
+
+.d-block {
+  display: block; }
+
+.w-fit-content {
+  width: fit-content; }
+
+.text-center {
+  text-align: center; }
+
+.mr24 {
+  margin-right: 24px; }
+
+.ml24 {
+  margin-left: 24px; }
+
+.mt14 {
+  margin-top: 14px; }
+
+.mt8 {
+  margin-top: 8px; }
+
+.mb16 {
+  margin-bottom: 16px; }
+
+.mb48 {
+  margin-bottom: 48px; }
+
+.mr16 {
+  margin-right: 16px; }
+
+.mb25 {
+  margin-bottom: 25px; }
+
+.orange {
+  color: #f89202; }
+
+.mr15 {
+  margin-right: 15px; }
+
+.mb75 {
+  margin-bottom: 75px; }
+
+.mb100 {
+  margin-bottom: 100px; }
+
+.mt75 {
+  margin-top: 75px; }
+
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf"); }
+h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    h1 {
+      color: #fff;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 45px;
+      text-transform: uppercase; } }
+
+h2 {
+  margin-top: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 57px;
+  text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    h2 {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 27px;
+      text-transform: uppercase; } }
+
+.font-30 {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: capitalize; }
+
+.font-24 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase; }
+
+.font-32 {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 150%; }
+
+.font13-3 {
+  color: #fff;
+  font-size: 13.3px;
+  line-height: 15px; }
+
+.font-18 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize; }
+
+.small-text {
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 150%; }
+
+.medium-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%; }
+
+.font-h3 {
+  margin: 0;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.green-btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #34c176;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer; }
+  @media screen and (max-width: 600px) {
+    .green-btn {
+      width: 100%; } }
+
+.checkout-btn {
+  padding: 20px 30px;
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.to-album-btn {
+  width: fit-content;
+  padding: 16px 30px;
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.submit-btn-style {
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.3rem;
+  padding-left: 20px;
+  color: #fff;
+  background: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 3px; }
+  .submit-btn-style::placeholder {
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px; }
+  @media screen and (max-width: 600px) {
+    .submit-btn-style {
+      display: flex;
+      flex-direction: row;
+      width: 100%; } }
+
+.download-btn {
+  padding: 16px 40px;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #95390c;
+  border: 0;
+  border-radius: 32px;
+  cursor: pointer; }
+
+/*Header*/
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 90px; }
+
+.search-input-style {
+  min-width: 248px;
+  height: 25px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  background: #3c3b3d;
+  border: 0;
+  border-radius: 50px; }
+
+.nav-style {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 120px; }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  color: #cacaca;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.nav-list {
+  display: flex;
+  list-style-type: none; }
+  .nav-list li {
+    padding-left: 0; }
+    .nav-list li a:hover {
+      color: #fff; }
+
+@media screen and (max-width: 1250px) {
+  .logo {
+    margin-right: 24px; }
+
+  .nav-style {
+    flex-wrap: wrap;
+    padding: 0 7%; }
+    .nav-style .align-item-center {
+      flex-wrap: wrap; }
+
+  .nav-list {
+    padding: 0; } }
+@media screen and (max-width: 600px) {
+  .nav-style {
+    top: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px; }
+    .nav-style .align-item-center {
+      flex-direction: column;
+      align-items: inherit; }
+
+  .nav-list {
+    flex-direction: column;
+    margin: 17px 0;
+    padding: 0; }
+    .nav-list li {
+      margin-right: 0; }
+      .nav-list li a {
+        width: fit-content;
+        margin-right: 0;
+        margin-bottom: 1px;
+        text-align: start; }
+
+  .search-input-style {
+    width: 100%; } }
+/*Page-prising*/
+.pricing-items-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px; }
+
+.pricing-item {
+  position: relative;
+  max-width: 371px;
+  margin-top: 50px;
+  padding: 0 1.5rem;
+  border-radius: 1rem; }
+
+.price-row {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+.pricing-value {
+  margin-right: 16px;
+  font-size: 64px;
+  line-height: 1em; }
+
+.pricing-footer {
+  min-height: 57px;
+  margin-top: 0; }
+
+.bg-free {
+  background-image: url("../images/subscribe_1.png"); }
+
+.bg-standard {
+  background-image: url("../images/subscribe_2.png"); }
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.png"); }
+
+@media screen and (max-width: 1250px) {
+  .pricing-item {
+    width: 30%; } }
+@media screen and (max-width: 800px) {
+  .pricing-items-row {
+    flex-direction: column;
+    align-items: center; }
+    .pricing-items-row .pricing-item {
+      justify-content: center;
+      width: unset; }
+      .pricing-items-row .pricing-item h3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase; } }
+/*News*/
+/*News*/
+.news-item {
+  display: flex; }
+
+.news-item:last-child {
+  margin-top: 64px; }
+
+.news-sec-img {
+  width: 575px;
+  height: 286px; }
+  @media screen and (max-width: 1250px) {
+    .news-sec-img {
+      width: 50%;
+      height: 50%; } }
+
+.news-author {
+  margin-top: 24px;
+  margin-bottom: 48px; }
+  .news-author p {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+.avatar {
+  width: 19px;
+  height: 19px;
+  margin-right: 16px; }
+
+@media screen and (max-width: 600px) {
+  .wrapper:nth-child(3) {
+    width: 100%;
+    padding: 100px 20px 0 20px; }
+
+  .news-item {
+    display: flex;
+    flex-direction: column; }
+    .news-item h3 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: capitalize; }
+    .news-item .medium-text {
+      margin-top: 16px;
+      margin-bottom: 0; }
+
+  .news-sec-img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 49px; }
+
+  .news-item:last-child {
+    flex-direction: column-reverse;
+    margin-top: 64px; }
+
+  .news-author {
+    font-size: 12px; }
+    .news-author .avatar {
+      width: 19px;
+      margin-right: 16px;
+      margin-bottom: 0; }
+
+  .news-author:nth-last-child(2) {
+    margin-top: 14px; } }
+.main-section {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner.png"); }
+
+.main-section .content > div p {
+  margin-top: 32px;
+  color: #fff;
+  font-size: 16px; }
+.main-section .content > div form {
+  max-width: 570px;
+  margin: 0 auto; }
+
+.title {
+  margin-bottom: 200px;
+  color: #fff; }
+
+@media screen and (max-width: 600px) {
+  .main-section .content > div {
+    margin: 0;
+    padding: 50px 20px 0 20px; }
+    .main-section .content > div p {
+      margin: 16px 0; }
+
+  .wrapper:nth-child(2) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px 0 20px; }
+    .wrapper:nth-child(2) h2 {
+      width: 100%;
+      text-align: center; } }
+/*Section-app*/
+.app-item {
+  display: flex;
+  flex-direction: row; }
+  .app-item img {
+    margin: 0 144px; }
+
+@media screen and (max-width: 1250px) {
+  .app-item img {
+    width: 50%;
+    height: 50%;
+    margin: 0 40px; } }
+@media screen and (max-width: 600px) {
+  .wrapper:nth-child(4) {
+    width: 100%;
+    padding-right: 20px;
+    padding-bottom: 0;
+    padding-left: 20px; }
+    .wrapper:nth-child(4) .app-item {
+      flex-direction: column-reverse; }
+      .wrapper:nth-child(4) .app-item img {
+        width: unset;
+        height: unset;
+        margin: 0 auto; } }
+/*Footer*/
+.footer-h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase; }
+
+.footer-link {
+  width: fit-content;
+  max-height: 20px;
+  color: #e0e0e0;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none; }
+
+p.footer-link {
+  max-height: 24px; }
+
+.footer-link-bottom {
+  color: #e0e0e0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none; }
+
+.footer {
+  width: 100%; }
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 62px 0 74px 0; }
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  padding: 40px 0 48px 0; }
+
+.footer-icon-style {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+.line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #e0e0e0;
+  border: 1px solid #e0e0e0; }
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%); }
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  width: 270px; }
+  .footer-links h2 {
+    margin-bottom: 16px; }
+  .footer-links p {
+    width: 100%;
+    margin: 2px 0;
+    padding: 2px 0; }
+  .footer-links ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .footer-links ul li {
+      display: flex;
+      align-items: center;
+      padding: 2px 0; }
+
+.footer-links:last-child .footer-h2 {
+  margin-bottom: 11px; }
+
+.footer-links:nth-child(3) .footer-link:nth-child(3) {
+  height: auto;
+  padding: 0; }
+
+@media screen and (max-width: 1250px) {
+  .footer-bottom,
+  .footer-top {
+    padding-left: 20px; } }
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 0 20px; }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-bottom: 44px;
+    padding-left: 0; }
+    .footer-top .footer-links:nth-child(4) {
+      margin-top: 4px; }
+
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0%; }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    padding-left: 0; }
+    .footer-bottom a {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 16px; } }
+
+/*# sourceMappingURL=app.css.map */

@@ -10,125 +10,67 @@
 
 
 
-.section-artists {
-      
-      background-image: url('../images/Morten\ Harket.png');
-      background-position: center;
-      background-size: cover;
-      
-      .container {
-         height: auto;
-         width: 100%;
-         margin: auto;
-         position: relative;
-
-         @include mobile-portrait-only {
-
-            width: 100%;
-            padding-right: 20px;
-            padding-left: 20px;
-           
-         }
 
 
-
-         .input-button {
-            @extend %btn;
-            width: 200px;
-            background-color: $purple;
-            border: none;
-            font-family: 'Arial';
-            font-size: 12.8px;
-            padding: 20px 30px;
-            margin-right: 1.5rem;
-            display: inline-block;
-            
-            @include mobile-portrait-only {
-               margin-bottom: 24px;
-               margin-right: 0;
-
-               &:last-child {
-
-                  margin-bottom: 0;
-               }
-
-
-               }
-      
-            
-   
-            &:last-child {
-               margin-right: 0px;
-               background-color: $red;
-            }
-         }
-   
-
-
-
-
-
-      }
-
-
-      @media (min-width: 1240px){
-         .container {
-         max-width: 1200px;
-         }
-      }
-   
-
-      h1 {
-         margin-bottom: 16px;
-         @include mobile-portrait-only {
-            font-size: 30px;
-            line-height: 45px;
-         }
-      }
-      
-      .fans-counter {
-         font-size: 16px;
-         line-height: 24px;
-         margin-bottom: 48px;
-      }
-      
-
-      button img {
-            width: 20px;
-            height: 17.79px;
-            margin-right: 16px;
-            filter: invert(1);
-            vertical-align: middle;
-           
-         }
-
-      
-
-      .form {
-         @extend %flex-between;
-         width: 100%;
-         max-width: 570px;
-
-         .input {
-            width: 50%;
-            min-height: 50px;
-            min-width: 270px;
-            padding-left: 20px;
-            margin-bottom: 1.5rem;
-            border: 2px solid $white;
-            border-radius: 3px;
-            margin-right: 24px;
-            background: none;
-            
-            &:last-child {
-               margin-right: 0;
-            }
-         }
-      }
-      
-      
-
-      
-
-      
-}
+.artist-main-section {
+   background-image: url("../images/MortenHarket.png");
+ }
+ 
+ .artist-main-section .content > div {
+   padding: 50px 0 63px 0;
+ }
+ 
+ .artisit-btns {
+   display: flex;
+ }
+ 
+ @mixin artist-page-btn {
+   min-width: 200px;
+   padding: 20px 30px;
+   color: $white;
+   border: 0;
+   border-radius: 5px;
+ }
+ 
+ .purple-btn {
+   margin-right: 1.5rem;
+   background-color: $purple;
+ 
+   @include artist-page-btn;
+ }
+ 
+ .red-btn {
+   background-color: $red;
+ 
+   @include artist-page-btn;
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .artist-main-section {
+     padding: 200px 20px;
+   }
+ 
+   .artist-main-section .content > div {
+     padding-top: 25px;
+     padding-bottom: 30px;
+ 
+     p {
+       color: $white;
+       font-size: 16px;
+     }
+   }
+ 
+   .artisit-btns {
+     display: flex;
+     flex-direction: column;
+   }
+ 
+   .purple-btn {
+     margin-bottom: 24px;
+   }
+ 
+   .purple-btn,
+   .red-btn {
+     max-width: 200px;
+   }
+ }
