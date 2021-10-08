@@ -1,9 +1,2 @@
-@import "variables";
 
-@mixin mobile-portrait-only {
-   @media (max-width: $phone-max-width) {
-      @content;
-      
-   }
-}
 

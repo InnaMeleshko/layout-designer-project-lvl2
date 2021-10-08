@@ -1,150 +1,36 @@
-.section-tracks   {
-   background-color: $black;
-   width: 100%;
-   height: auto;
-   text-align: center;
-
-
-   .container {
-      height: auto;
-      width: 100%;
-      margin: auto;  
-
-      @include mobile-portrait-only {
-         width: 100%;
-         padding-right: 20px;
-         padding-left: 20px;
-         display: block;
-         }
-     
-   }   
-   
-   @media (min-width: 1240px){
-      .container {
-      max-width: 1200px;
-      }
+.track-list {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding-top: 50px;
+ }
+ 
+ .popular-track {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 50%;
+   padding-right: 50px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+   // section:nth-child(2) {
+   //   width: 100%;
+   //   padding: 0 20px;
+   //   padding-top: 100px;
+   // }
+ 
+   .track-list {
+     padding-top: 48px;
    }
-   
-
-   h2 {
-      margin-bottom: 57px;
-      font-size: 38px;
-      line-height: 57px;
-      font-weight: 700;
-
-      @include mobile-portrait-only {
-
-
-         font-size: 18px;
-         line-height: 27px;
-         text-align: left;
-         }
-
+ 
+   .track-list .popular-track:nth-child(6) {
+     margin-bottom: 0;
    }
-
-   .section-inner-track {
-      @extend %flex-between; 
-      flex-direction: row;
-
-      @include mobile-portrait-only {
-         display: flex;
-         flex-direction: column;
-         }
-
-      
-
-      .inner-column {
-         width: 50%;
-         display: block;
-
-         @include mobile-portrait-only {
-            width: 100%
-            }
-      }
-   }
-  
-
+ 
    .popular-track {
-
-      
-      margin: 25px 50px;
-      vertical-align: middle;
-      align-items: center;
-      @extend %flex-between;
-
-      @include mobile-portrait-only {
-         width: auto;
-         margin: 0px 0px 25px 0px;
-         }
-   
-      .track-info {
-         text-align: left;
-
-         h3 {
-            font-weight: 700px;
-            font-size: 12.8px;
-            line-height: 19.2px;
-            color: $white;
-         }
-      }
-
-     
-
-     
-
-
-     
-         
-
-         span {
-            margin-left: auto;
-            color: $white;
-            font-size: 12.8px;
-            line-height: 19.2px;
-
-           
-
-            
-           
-         }
-
-
-
-      }
-      
-
-
-     
-
-     
-
-
-   
-
-
-
-   img {
-      width: 55px;
-      height: 55px;
-      margin-right: 15px;
+     width: 100%;
+     margin-bottom: 25px;
+     padding-right: 0;
    }
-
-  
-
-   p {
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 12.8px;
-      line-height: 19.2px;
-     
-      
-     
-      &:first-child {
-         font-weight: 700;
-         text-transform: uppercase;
-      }
-   }
-
-   
-}
+ }

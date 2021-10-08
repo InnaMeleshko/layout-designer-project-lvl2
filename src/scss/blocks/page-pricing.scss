@@ -1,167 +1,71 @@
 @import "../mixins";
 
-.section-prising {
-   @extend %section-style;
-   
-   h2 {
-       @include mobile-portrait-only {
-         font-size: 18px;
-         line-height: 27px;
-      }
+.pricing-items-row {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 36px;
+ }
+ 
+ .pricing-item {
+   position: relative;
+   max-width: 371px;
+   margin-top: 50px;
+   padding: 0 1.5rem;
+   border-radius: 1rem;
+ }
+ 
+ .price-row {
+   display: flex;
+   align-items: end;
+   justify-content: center;
+   margin-bottom: 40px;
+ }
+ 
+ .pricing-value {
+   margin-right: 16px;
+   font-size: 64px;
+   line-height: 1em;
+ }
+ 
+ .pricing-footer {
+   min-height: 57px;
+   margin-top: 0;
+ }
+ 
+ .bg-free {
+   background-image: url("../images/subscribe_1.png");
+ }
+ 
+ .bg-standard {
+   background-image: url("../images/subscribe_2.png");
+ }
+ 
+ .bg-premium {
+   background-image: url("../images/subscribe_3.png");
+ }
+ 
+ @media screen and (max-width: 1250px) {
+   .pricing-item {
+     width: 30%;
    }
-
-   
-   .section-prising-inner {
-      display: flex;
-      justify-content: space-around;
-
-
-      @include mobile-portrait-only {
-
-         display: flex;
-         flex-wrap: wrap;
-      }
-      
-   
-
-   
-
-      .pricing-item {
-         width: 33.33333%;
-         padding-left: 1.5rem;
-         padding-right: 1.5rem;
-         border-radius: 1rem;
-         margin-right: 50px;
-         height: auto;
-         margin-bottom: 40px;
-
-         @include mobile-portrait-only {
-
-            width: 100%;
-            
-            margin-right: 20px;
-            margin-left: 20px;
-
-            }
-         
-         
-         
-        
-         
-
-            &.bg-free {
-               background-image: url('../images/subscribe_1.png');
-               background-size: cover;
-            
-           
-         }
-
-         &.bg-standart {
-            background-image: url('../images/subscribe_2.png');
-            background-size: cover;
-         }
-      
-         &.bg-premium {
-            background-image: url('../images/subscribe_3.png');
-            background-size: cover;
-         }
-
-         &:last-child {
-            margin-right: 0px;
-
-            @include mobile-portrait-only {
-
-               margin-right: 20px;
-
-            }
-            
-
-
-         }
-         
-   
-
-         h3 {
-            padding-bottom: 200px;
-            padding-top: 24px;
-            font-size: 24px;
-            line-height: 36px;
-            font-weight: normal;
-
-            @include mobile-portrait-only {
-               font-size: 16px;
-               line-height: 24px;
-            }
-         }
-
-         .pricing-value {
-            margin-bottom: 40px;
-            line-height: 1em;
-            font-size: 64px;
-            font-family: 'Roboto', sans-serif;
-            text-transform: uppercase;
-            font-weight: 400;
-            font-style: normal;
-            
-            span {
-               font-size: 32px;
-               vertical-align: text-top;
-               color: $white;
-
-               @include mobile-portrait-only {
-                  font-size: 32px;
-                  line-height: 48px;
-               }
-            }
-         }
-
-
-         .pricing-footer {
-            color: $white;
-            margin-top: 64px;
-            margin-bottom: 64px;
-
-      
-         }
-
-         .btn {
-            @extend %btn;
-            background: none;
-            border: 1px solid $white;
-            display: inline-block;
-            font-size: 16px;
-            line-height: 24px;
-            text-decoration: none;
-         
-
-            @include mobile-portrait-only {
-               font-size: 16px;
-               line-height: 24px;
-            }
-         }
-
-         small {
-            @extend %text-small;
-            
-         }
-
-         
-      }
+ }
+ 
+ @media screen and (max-width: 800px) {
+   .pricing-items-row {
+     flex-direction: column;
+     align-items: center;
+ 
+     .pricing-item {
+       justify-content: center;
+       width: unset;
+ 
+       h3 {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 24px;
+         text-transform: uppercase;
+       }
+     }
    }
-   p {
-      font-size: 16px;
-      color: $white;
-      line-height: 24px;
-
-      @include mobile-portrait-only {
-         padding-right: 20px;
-         padding-left: 20px;
-
-
-
-      }
-      
-
-   }
-}
+ }
    
