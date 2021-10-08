@@ -56,6 +56,10 @@
    margin-bottom: 15px;
 }
 
+.mb-48 {
+   margin-bottom: 48px;
+}
+
 
 
 
@@ -125,19 +129,11 @@ font-weight: 400;
 }
 
 
-.container {
-   width: 1200px;
-   height: 100%;
-   margin: 0 auto;
- 
-   @media screen and (max-width: 1250px) {
-     width: unset;
-     max-width: 1200px;
-   }
- 
-   @media screen and (max-width: 600px) {
-     width: 100%;
-   }
+.t-center {
+   text-align: center;
+}
+.no-margin {
+   margin: 0;
 }
 
 .d-block {
