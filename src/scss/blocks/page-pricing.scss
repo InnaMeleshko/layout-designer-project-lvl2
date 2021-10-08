@@ -2,36 +2,9 @@
 
 .section-prising {
    @extend %section-style;
-  
-   margin: 0 auto;
-
-
-
-   .container {
-      height: auto;
-      width: 100%;
-      margin: auto;
-      position: relative;
-
-
-      @include mobile-portrait-only {
-         width: 100%;
-         display: block;
-         
-      }
-   }
-   @media (min-width: 1240px){
-      .container {
-      max-width: 1200px;
-      }
-   }
-
-  
-
+   
    h2 {
-      padding-bottom: 50px;
-
-      @include mobile-portrait-only {
+       @include mobile-portrait-only {
          font-size: 18px;
          line-height: 27px;
       }

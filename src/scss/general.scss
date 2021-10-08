@@ -165,8 +165,7 @@ ul {
    background-size: cover;
 }
 
-
-.container {
+ .container {
    width: 1200px;
    height: 100%;
    margin: 0 auto;
@@ -180,6 +179,31 @@ ul {
      width: 100%;
    }
  }
+ 
+ .wrapper {
+   width: 1240px;
+   margin: 0 auto;
+   padding-top: 100px;
+ 
+   @media screen and (max-width: 1250px) {
+     width: unset;
+     max-width: 1240px;
+     padding-right: 20px;
+     padding-left: 20px;
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
  
  .wrapper {
    width: 1240px;
