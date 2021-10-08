@@ -609,6 +609,12 @@ ul {
   margin: 0 auto;
   padding: 100px 20px 0; }
 
+.footer-icon-style {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
 .section-artists {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
@@ -764,6 +770,12 @@ ul {
   width: 1240px;
   margin: 0 auto;
   padding: 100px 20px 0; }
+
+.footer-icon-style {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
 
 /*Header*/
 header {
@@ -1327,5 +1339,29 @@ li {
       display: inline-block;
       width: 100%;
       padding-bottom: 16px; } }
+  @media screen and (max-width: 600px) {
+    .contacts-link .footer {
+      padding: 0 20px; }
+    .contacts-link .footer-top {
+      display: flex;
+      flex-direction: column;
+      padding-right: 0;
+      padding-bottom: 44px;
+      padding-left: 0; }
+      .contacts-link .footer-top .footer-links:nth-child(4) {
+        margin-top: 4px; }
+    .contacts-link .footer-links {
+      width: 100%;
+      margin-bottom: 30px;
+      margin-left: 0%; }
+    .contacts-link .footer-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: unset;
+      padding-left: 0; }
+      .contacts-link .footer-bottom a {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px; } }
 
 /*# sourceMappingURL=app.css.map */
