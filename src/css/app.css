@@ -615,6 +615,21 @@ ul {
   height: auto;
   vertical-align: middle; }
 
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto; }
+  @media screen and (max-width: 1250px) {
+    .container {
+      width: unset;
+      max-width: 1200px; } }
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%; } }
+
+.d-block {
+  display: block; }
+
 .section-artists {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
@@ -776,6 +791,21 @@ ul {
   max-width: 100%;
   height: auto;
   vertical-align: middle; }
+
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto; }
+  @media screen and (max-width: 1250px) {
+    .container {
+      width: unset;
+      max-width: 1200px; } }
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%; } }
+
+.d-block {
+  display: block; }
 
 /*Header*/
 header {
@@ -1235,76 +1265,50 @@ input {
       margin-bottom: 16px; } }
 
 /*Footer*/
-.footer-section {
-  width: 100%; }
-  @media screen and (max-width: 1250px) {
-    .footer-section .footer-contacts,
-    .footer-section .footer-top {
-      padding-left: 20px; } }
-@media screen and (max-width: 1250px) and (max-width: 600px) {
-  .footer-section .footer {
-    padding: 0 20px; }
-  .footer-section .footer-top {
-    display: flex;
-    flex-direction: column;
-    padding-right: 0;
-    padding-bottom: 44px;
-    padding-left: 0; }
-    .footer-section .footer-top .footer-links:nth-child(4) {
-      margin-top: 4px; }
-  .footer-section .footer-links {
-    width: 100%;
-    margin-bottom: 30px;
-    margin-left: 0%; }
-  .footer-section .footer-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: unset;
-    padding-left: 0; }
-    .footer-section .footer-bottom a {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 16px; } }
+.footer-h2 {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase; }
 
-  .footer-section .footer-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 62px 0 74px 0; }
-    @media (max-width: 414px) {
-      .footer-section .footer-top {
-        display: flex;
-        flex-direction: column;
-        padding-right: 0;
-        padding-bottom: 44px;
-        padding-left: 20px; }
-        .footer-section .footer-top .footer-links:nth-child(4) {
-          margin-top: 4px; } }
-  .footer-section .footer-inner {
-    display: flex;
-    flex-direction: column;
-    width: 270px; }
-    @media (max-width: 414px) {
-      .footer-section .footer-inner {
-        margin-bottom: 30px;
-        width: 100%; } }
-    .footer-section .footer-inner h2 {
-      margin-bottom: 16px; }
-    .footer-section .footer-inner span {
-      width: 100%;
-      margin: 2px 0;
-      padding: 2px 0; }
-    .footer-section .footer-inner ul {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      list-style-type: none; }
-      .footer-section .footer-inner ul li {
-        display: flex;
-        align-items: center;
-        padding: 2px 0; }
-  .footer-section p.footer-link {
-    max-height: 24px; }
+.footer-link {
+  width: fit-content;
+  max-height: 20px;
+  color: #E0E0E0;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none; }
+
+p.footer-link {
+  max-height: 24px; }
+
+.footer-link-bottom {
+  color: #E0E0E0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none; }
+
+.footer {
+  width: 100%; }
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 62px 0 74px 0; }
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  padding: 40px 0 48px 0; }
+
+.footer-icon-style {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
 
 .line {
   position: absolute;
@@ -1313,55 +1317,66 @@ input {
   background-color: #E0E0E0;
   border: 1px solid #E0E0E0; }
 
-.footer-contacts {
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%); }
+
+.footer-links {
   display: flex;
-  align-items: center;
-  padding: 40px 0 48px 0; }
-  @media (max-width: 414px) {
-    .footer-contacts {
+  flex-direction: column;
+  width: 270px; }
+  .footer-links h2 {
+    margin-bottom: 16px; }
+  .footer-links p {
+    width: 100%;
+    margin: 2px 0;
+    padding: 2px 0; }
+  .footer-links ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .footer-links ul li {
       display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: flex-start; } }
+      align-items: center;
+      padding: 2px 0; }
 
-li {
-  list-style-type: none; }
+.footer-links:last-child .footer-h2 {
+  margin-bottom: 11px; }
 
-.contacts-link {
-  color: #E0E0E0;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-  display: block; }
-  @media (max-width: 414px) {
-    .contacts-link {
-      display: inline-block;
+.footer-links:nth-child(3) .footer-link:nth-child(3) {
+  height: auto;
+  padding: 0; }
+
+@media screen and (max-width: 1250px) {
+  .footer-bottom,
+  .footer-top {
+    padding-left: 20px; } }
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 0 20px; }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-bottom: 44px;
+    padding-left: 0; }
+    .footer-top .footer-links:nth-child(4) {
+      margin-top: 4px; }
+
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 0%; }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    padding-left: 0; }
+    .footer-bottom a {
       width: 100%;
-      padding-bottom: 16px; } }
-  @media screen and (max-width: 600px) {
-    .contacts-link .footer {
-      padding: 0 20px; }
-    .contacts-link .footer-top {
-      display: flex;
-      flex-direction: column;
-      padding-right: 0;
-      padding-bottom: 44px;
-      padding-left: 0; }
-      .contacts-link .footer-top .footer-links:nth-child(4) {
-        margin-top: 4px; }
-    .contacts-link .footer-links {
-      width: 100%;
-      margin-bottom: 30px;
-      margin-left: 0%; }
-    .contacts-link .footer-bottom {
-      display: flex;
-      flex-direction: column;
-      align-items: unset;
-      padding-left: 0; }
-      .contacts-link .footer-bottom a {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 16px; } }
+      margin-right: 0;
+      margin-bottom: 16px; } }
 
 /*# sourceMappingURL=app.css.map */
