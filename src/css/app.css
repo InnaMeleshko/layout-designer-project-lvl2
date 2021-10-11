@@ -46,6 +46,9 @@ body {
   justify-content: center;
   padding: 200px 0; }
 
+.ws-nr {
+  white-space: nowrap; }
+
 /*Header*/
 .logo {
   display: flex;
@@ -185,11 +188,11 @@ body {
 
   .similar-item,
   .discography-item {
-    max-width: 138px; }
+    max-width: 137px; }
     .similar-item img,
     .discography-item img {
-      width: 138px;
-      height: 138px; }
+      width: 137px;
+      height: 137px; }
 
   .discography-info,
   .similar-info {
@@ -222,11 +225,11 @@ body {
 
   .similar-item,
   .discography-item {
-    max-width: 138px; }
+    max-width: 137px; }
     .similar-item img,
     .discography-item img {
-      width: 138px;
-      height: 138px; }
+      width: 137px;
+      height: 137px; }
 
   .discography-info,
   .similar-info {
@@ -278,6 +281,9 @@ body {
   display: flex;
   justify-content: center;
   padding: 200px 0; }
+
+.ws-nr {
+  white-space: nowrap; }
 
 .align-item-center {
   display: flex;
