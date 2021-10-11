@@ -233,7 +233,11 @@ body {
 
   .discography-info,
   .similar-info {
-    margin-top: 11px; } }
+    margin-top: 11px; }
+
+  .similar-info {
+    width: 137px;
+    height: 75px; } }
 * {
   box-sizing: border-box; }
 
