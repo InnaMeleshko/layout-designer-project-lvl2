@@ -1037,7 +1037,10 @@ h2 {
       .wrapper:nth-child(4) .app-item img {
         width: unset;
         height: unset;
-        margin: 0 auto; } }
+        margin: 0 auto; }
+
+  .tw-small {
+    width: 90%; } }
 /*Footer*/
 .footer-h2 {
   color: #fff;
