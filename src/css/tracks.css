@@ -1,0 +1,38 @@
+.track-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding-top: 50px;
+}
+
+.popular-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 50px;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .track-list {
+    padding-top: 48px;
+  }
+  .track-list .popular-track:nth-child(6) {
+    margin-bottom: 0;
+  }
+  .popular-track {
+    margin-bottom: 25px;
+    padding-right: 0;
+    width: 100%;
+  }
+}
