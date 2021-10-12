@@ -38,8 +38,8 @@
 
 @media screen and (max-width: 600px) {
   .wrapper:nth-child(3) {
-    padding: 100px 20px 0;
     width: 100%;
+    padding: 100px 20px 0;
   }
 
   .news-item {
@@ -60,10 +60,10 @@
   }
 
   .news-sec-img {
-    margin-right: 0;
-    margin-bottom: 49px;
     width: 100%;
     height: auto;
+    margin-right: 0;
+    margin-bottom: 49px;
   }
 
   .news-item:last-child {
@@ -75,9 +75,9 @@
     font-size: 12px;
 
     .avatar {
+      width: 19px;
       margin-right: 16px;
       margin-bottom: 0;
-      width: 19px;
     }
   }
 

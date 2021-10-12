@@ -100,47 +100,47 @@
 }
 
 @font-face {
-  src: url("../fonts/Roboto-Regular.ttf");
-  font-family: "Roboto-Regular";
   font-weight: normal;
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
-  src: url("../fonts/Roboto-Bold.ttf");
-  font-family: "Roboto-Bold";
   font-weight: bold;
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf");
 }
 
 h1 {
+  color: $white;
   font-weight: bold;
   font-size: 60px;
   line-height: 90px;
   text-transform: uppercase;
-  color: $white;
 
   @media screen and (max-width: 600px) {
+    color: $white;
     font-weight: bold;
     font-size: 30px;
     line-height: 45px;
     text-transform: uppercase;
-    color: $white;
   }
 }
 
 h2 {
   margin-top: 0;
+  color: $white;
   font-weight: bold;
   font-size: 38px;
   line-height: 57px;
   text-transform: uppercase;
-  color: $white;
 
   @media screen and (max-width: 600px) {
+    color: $white;
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase;
-    color: $white;
   }
 }
 
@@ -172,9 +172,9 @@ h2 {
 }
 
 .font13-3 {
+  color: $white;
   font-size: 13.3px;
   line-height: 15px;
-  color: $white;
 }
 
 .font-18 {
@@ -209,17 +209,17 @@ h2 {
 
 .btn {
   text-align: center;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .green-btn {
+  width: 100%;
   margin: 0 auto;
+  padding: 20px 0;
+  background: $green;
   border: 0;
   border-radius: 5px;
-  padding: 20px 0;
-  width: 100%;
-  background: $green;
   cursor: pointer;
 
   @media screen and (max-width: 600px) {
@@ -228,37 +228,37 @@ h2 {
 }
 
 .checkout-btn {
-  border: 1px solid $white;
-  border-radius: 5px;
   padding: 20px 30px;
   color: $white;
   background: none;
+  border: 1px solid $white;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 .to-album-btn {
+  width: fit-content;
+  padding: 16px 30px;
+  color: $gray;
   border: 1px solid $gray;
   border-radius: 5px;
-  padding: 16px 30px;
-  width: fit-content;
-  color: $gray;
   cursor: pointer;
 }
 
 .submit-btn-style {
-  margin-bottom: 1.3rem;
-  border: 2px solid $gray;
-  border-radius: 3px;
-  padding-left: 20px;
   min-width: 270px;
   min-height: 50px;
+  margin-bottom: 1.3rem;
+  padding-left: 20px;
   color: $white;
   background: none;
+  border: 2px solid $gray;
+  border-radius: 3px;
 
   &::placeholder {
+    color: $white;
     font-weight: bold;
     font-size: 14px;
-    color: $white;
   }
 
   @media screen and (max-width: 600px) {
@@ -269,11 +269,11 @@ h2 {
 }
 
 .download-btn {
+  padding: 16px 40px;
+  color: $white;
+  text-transform: capitalize;
+  background-color: $red;
   border: 0;
   border-radius: 32px;
-  padding: 16px 40px;
-  text-transform: capitalize;
-  color: $white;
-  background-color: $red;
   cursor: pointer;
 }
