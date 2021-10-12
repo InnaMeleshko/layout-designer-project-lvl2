@@ -25,11 +25,11 @@
 }
 
 @media screen and (max-width: 600px) {
-   section:nth-child(3),
+  section:nth-child(3),
   section:nth-child(4) {
-  width: 100%;
-  padding: 0 20px;
-  padding-top: 100px;
+    padding: 0 20px;
+    padding-top: 100px;
+    width: 100%;
   }
 
   .discography-list,
@@ -50,11 +50,10 @@
   .discography-info,
   .similar-info {
     margin-top: 11px;
- 
-  }
-  .similar-info {
-  width: 137px;
-  height: 75px;
   }
 
+  .similar-info {
+    width: 137px;
+    height: 75px;
+  }
 }
