@@ -1,5 +1,6 @@
 
 Two-page landing, which provides access to online listening to music.
+
 Skills & Qualities: 
 - Developed according to OOCSS and Atomic CSS methodologies
 - Used SASS 
@@ -9,7 +10,7 @@ Skills & Qualities:
 - Made cross-browser development for mobile and desktop versions
 - Deployed on Surge.sh
 
-Here is the result https://colossal-self.surge.sh/ 
+Here is the result marvelous-loss.surge.sh
 >>>>>>> e3002b9f5ba27d23ef7c1a546bdfb075e15f1463
 
 
