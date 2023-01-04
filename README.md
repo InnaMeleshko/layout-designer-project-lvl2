@@ -8,7 +8,7 @@ Skills & Qualities:
 - Made cross-browser development for mobile and desktop versions
 - Deployed on Surge.sh
 
-Here is the result   
+Here is the result https://colossal-self.surge.sh/ 
 
 
 
