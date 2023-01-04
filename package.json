@@ -1,0 +1,22 @@
+{
+  "name": "Music box",
+  "version": "1.0.0",
+  "description": "two-page landing, which provides access to online listening to music.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/InnaMeleshko/layout-designer-project-lvl2.git"
+  },
+  "author": "Inna Meleshko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnaMeleshko/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/InnaMeleshko/layout-designer-project-lvl2#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
